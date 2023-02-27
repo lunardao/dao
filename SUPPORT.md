@@ -21,6 +21,11 @@ If you want to support the ongoing works, building the primitives and the deveop
 
 **WE ACCEPT AND ENCOURAGE PAYMENTS FROM TORNADO CASH!**
 
+### XMR:
+```
+86JkJqPCmcPSSHzAdQk4FKSSXu8tpQ7NXEVwnPS3vQo1VNx3fSAowokaaUXBf8w1oKAN1ZtHJo4LYPBVyPaw9xeg6szaZhw
+```
+
 **All the external workers and ongoing services will be paid before Stewards!**
 
 **IMPORTANT:** *Stewards wallet is NOT the same one as the [DAO treasury](https://etherscan.io/enslookup-search?search=lunarpunksquad.eth!)*
