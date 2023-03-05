@@ -53,7 +53,7 @@ We form a decentralized squad of sovereign individuals, lunarpunks, to allocate 
 
 ### Knowledge as a Value
 
-The investment sphere is LunarDAO's main focus, ~~in spite of that we highly commend education~~ and at the same time we see education as foundational to be able to fulfill our mission.
+The investment sphere is LunarDAO's main focus, and at the same time we see education as foundational to be able to fulfill our mission.
 
 The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers who bring the value back to the ecosystem.
 
