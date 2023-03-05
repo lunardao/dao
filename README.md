@@ -53,7 +53,7 @@ We form a decentralized squad of sovereign individuals, lunarpunks, to allocate 
 
 ### Knowledge as a Value
 
-The investment sphere is LunarDAO's main focus, and at the same time we see education as foundational to be able to fulfill our mission.
+The investment sphere is LunarDAO's main focus and at the same time we see education as foundational to be able to fulfill our mission.
 
 The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers who bring the value back to the ecosystem.
 
@@ -117,11 +117,11 @@ To become a Steward any Squad member can make a proposal and contact one of the 
 
 ### Media
 
-The Media committee is responsible for updating the web page and twitter. The media output is in accordance with LunarDAO mission, decisions and development. The committee can also coordinate and recruit members for media productions based on LunarDAOs mission and goals, participate in interviews or initiate media works that are beneficial to the DAO. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](https://forum.lunardao.net) if they want to join the media committee.
+The Media committee is responsible for updating the web page and twitter. The media output is in accordance with LunarDAO mission, decisions and development. The committee can also coordinate and recruit members for media productions based on LunarDAOs mission and goals, participate in interviews or initiate media works that are beneficial to the DAO. Community members can post on the [forum](https://forum.lunardao.net) if they want to join the Media committee.
 
 ### Research
 
-The Research committee conveys research about privacy and anonymity projects and tools. This research can serve as a basis for evaluation of investment LIPs for the DAO and as a resource for the community. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](https://forum.lunardao.net)  if they want to join the research committee.
+The Research committee conveys research about privacy and anonymity projects and tools. This research can serve as a basis for evaluation of investment LIPs for the DAO and as a resource for the community. Community members can post on the [forum](https://forum.lunardao.net) if they want to join the Research committee.
 
 ### Education
 
@@ -134,8 +134,6 @@ An essential part of education, and included in the roadmap, is collecting, rese
 LunarDAO Sentinels is a committee responsible for executing community decisions in regards to treasury (multi-sig) and consists of eight members in total. Sentinels can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
 
 The suggested time frame to be a multi-sig participant is two years. The transfer will happen when there is someone who can take over when the time is due and is not a rigid measurement. To rotate responsibilities to new Sentinels supports a level of diversity of thought in this important governance responsibility. 
-
-Sentinels have the power to reject malicious proposals. 
 
 *A malicious proposal can include:*
 
@@ -151,7 +149,7 @@ As a part of the [roadmap](https://luardao.net/roadmap.html); the squad will vot
 
 Builders and teams in our ecosystem of privacy oriented projects are often public, using known pseudonyms, and are recognized in crypto communities. In [*'Why anon'*](https://lunardao.net/why-anon.html) we explained why anonymity and privacy are not only important for lunarpunk movement, but also the only choice for the [Stewards](https://wiki.lunardao.net/governance.html#stewards) (core team/ founders) of LunarDAO.
 
-To build trust, and decentralize, the DAO is collborating with six Sentinels who are not core-members. They are:
+To build trust, and decentralize, the DAO is collborating with six Sentinels who are not core-members. The Sentinels are:
 
 1. [Mario Havel](https://twitter.com/TMIYChao); [Bordel hackerspace](https://bordel.paralelnipolis.cz/#/), [Paralelní polis](https://www.paralelnipolis.cz/en/o-nas/).
 
