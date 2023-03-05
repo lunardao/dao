@@ -13,7 +13,7 @@ LUNARDAO IS A DECENTRALIZED ORGANIZATION, NOT BASED IN ANY JURISDICTION, NOT REP
 
 LunarDAO is an investment fund based on lunarpunk philosophy. By allocating funds in privacy projects & anonymity tooling we aim to expand freedom and ensure sovereignty. Squad wealth leverages collective strength and capture value in the ecosystem by building a portfolio of privacy assets. Anyone can exit at any time. Members are anonymous hence can participate in building this vision without fear of frozen funds, legal implications or any kind of repression. We aim to move to a full anon setup and develop infrastructure for a parallel economy outside of control and centralization.
 
-LunarDAO's supports research on privacy technologies, listed in the [wiki](wiki.lunardao.net), and education strctures such as [Adalan Academy](adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
+LunarDAO's supports research on privacy technologies, listed in the [wiki](https://wiki.lunardao.net), and education strctures such as [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
 
 ## Preface
 
@@ -25,7 +25,7 @@ LunarDAO provides such a strategy.
 
 The more regulation is imposed on people the bigger is the thirst for anonymity and privacy. The development of anonymity and privacy results in stronger regulation. This loop is inevitable. Instead of closing our eyes to this reality, we choose to expand the forest and build a sanctuary where society can redefine itself, self-administrate and regain its economic, political and moral agency.
 
-Read LunarDAO full [manifesto](wiki.lunardao.net).
+Read LunarDAO full [manifesto](https://wiki.lunardao.net).
 
 ## Mission
 
@@ -117,15 +117,15 @@ To become a Steward any Squad member can make a proposal and contact one of the 
 
 ### Media
 
-The Media committee is responsible for updating the web page and twitter. The media output is in accordance with LunarDAO mission, decisions and development. The committee can also coordinate and recruit members for media productions based on LunarDAOs mission and goals, participate in interviews or initiate media works that are beneficial to the DAO. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](forum.lunardao.net) if they want to join the media committee.
+The Media committee is responsible for updating the web page and twitter. The media output is in accordance with LunarDAO mission, decisions and development. The committee can also coordinate and recruit members for media productions based on LunarDAOs mission and goals, participate in interviews or initiate media works that are beneficial to the DAO. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](https://forum.lunardao.net) if they want to join the media committee.
 
 ### Research
 
-The Research committee conveys research about privacy and anonymity projects and tools. This research can serve as a basis for evaluation of investment LIPs for the DAO and as a resource for the community. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](forum.lunardao.net)  if they want to join the research committee.
+The Research committee conveys research about privacy and anonymity projects and tools. This research can serve as a basis for evaluation of investment LIPs for the DAO and as a resource for the community. Squad members can contact [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7) on the [forum](https://forum.lunardao.net)  if they want to join the research committee.
 
 ### Education
 
-Education is fundamental in the struggle for free life, autonomy, and community. It is vital to train guides by providing knowledge, skills and build confidence. LunarDAO is in a trust based partnership with [Adalan Academy](adalanacademy.org) and aim to support their development. The initial focus of this decentralized virtual academy is to offer courses in programming, economics and political philosophy. Some of the outcomes are creation and translation of education material, texts and resources. The long-term objective is being able to educate the new generation of lunarpunks.
+Education is fundamental in the struggle for free life, autonomy, and community. It is vital to train guides by providing knowledge, skills and build confidence. LunarDAO is in a trust based partnership with [Adalan Academy](https://adalanacademy.org) and aim to support their development. The initial focus of this decentralized virtual academy is to offer courses in programming, economics and political philosophy. Some of the outcomes are creation and translation of education material, texts and resources. The long-term objective is being able to educate the new generation of lunarpunks.
 
 An essential part of education, and included in the roadmap, is collecting, researching and sharing tools and resources that are privacy oriented. This includes creating opt out manuals that provide the means to exit surveillance society and develop parallel structures that are decentralized and expands our freedom. 
 
@@ -145,7 +145,7 @@ Sentinels have the power to reject malicious proposals.
 - Proposals which are supporting regulatory measures.  
 - Proposal which are suspected of/or exposed as having malintent ie. a quickly pushed proposals which aims to drain the treasury.
 
-As a part of the [roadmap](insert link); the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
+As a part of the [roadmap](https://luardao.net/roadmap.html); the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
 
 **Sentinel members**
 
