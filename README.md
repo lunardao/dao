@@ -239,7 +239,7 @@ Loot represents members' value of shares after RageQuit or GuildKick.
 **Fundraising Events**
 
 - A fundraising event is proposed to take place 4x in the first year. (every third month).\*
-- An investment deal is expected to happen at least once before between each fundraisiong event.\*
+- An investment deal is expected to happen at least once between each fundraisiong event.\*
 - If there are still unused ETH (or DAI) from the previous raise, the number of fundraising events or max cap of such event will be adjusted to this reality. \*
 - The fundraising is open two weeks the first time, and thereafter a week on each occation.\*  
 - During this time anyone can become a Squad member by tributing ETH to the treasury.\*
