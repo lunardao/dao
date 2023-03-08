@@ -13,13 +13,13 @@ LUNARDAO IS A DECENTRALIZED ORGANIZATION, NOT BASED IN ANY JURISDICTION, NOT REP
 
 LunarDAO is an investment fund based on lunarpunk philosophy. By allocating funds in privacy projects & anonymity tooling we aim to expand freedom and ensure sovereignty. Squad wealth leverages collective strength and capture value in the ecosystem by building a portfolio of privacy assets. Anyone can exit at any time. Members are anonymous hence can participate in building this vision without fear of frozen funds, legal implications or any kind of repression. We aim to move to a full anon setup and develop infrastructure for a parallel economy outside of control and centralization.
 
-LunarDAO's supports research on privacy technologies, listed in the [wiki](https://wiki.lunardao.net), and education strctures such as [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
+LunarDAO's supports research on privacy technologies, listed in the [wiki](https://wiki.lunardao.net), and education structures such as [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem.
 
 ## Preface
 
-The moon symbolizes many things, among those transformation and life, strength and power. To develop life means continuous transformation. Life that is stagnant, that conforms, will cease to exist. LunarDAO is one part of the expanding forest against surveillance society. It was created out of neccessity, but lunarpunks existed long before this DAO. The regulatory changes incentivize us to organize our defenses with more persistence. We constituted LunarDAO, because we believe in community, decentralization, individual responsibility and contribution to a common mission. LunarDAO is a community directed by Lunar Squad. It is a practical application of lunarpunk narrative.
+The moon symbolizes many things, among those transformation and life, strength and power. To develop life means continuous transformation. Life that is stagnant will cease to exist. LunarDAO is one part of the expanding forest against surveillance society. It was created out of necessity, but lunarpunks existed long before this DAO. The regulatory changes incentivize us to organize our defenses with more persistence. We constituted LunarDAO, because we believe in community, decentralization, individual responsibility and contribution to a common mission. LunarDAO is a community directed by Lunar Squad. It is a practical application of lunarpunk narrative.
 
-Decades ago, cypherpunks foresaw the rise of censorship and surveillance. They understood that cryptography and economic sovereignty were necessary to ensure freedom. Bitcoin created an economy outside of financial hegemony and made it possible for people to regain agency. Over the years, the voices upholding the cypherpunk mission have become fewer and quieter, drowned out by a flood of easy money. The KYC regulated crypto diverged from that foundation. The advocates of crypto's liberatory mission lack unity as well as strategy.
+Decades ago, cypherpunks foresaw the rise of censorship and surveillance. They understood that cryptography and economic sovereignty are necessary to ensure freedom. Bitcoin created an economy outside of financial hegemony and made it possible for people to regain agency. Over the years, the voices upholding the cypherpunk mission have become fewer and quieter, drowned out by a flood of easy money. The KYC regulated crypto diverged from that foundation. The advocates of crypto's liberatory mission lack unity as well as strategy.
 
 LunarDAO provides such a strategy. 
 
@@ -43,19 +43,19 @@ Anonymity and privacy oriented developers will face an increasing difficulty in 
 
 We don't accept the future to be so grim. The prospect of privacy is ultimately bullish. LunarDAO offers a solution.
 
-We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages the collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, research committee evaluates the teams developing them and the Squad members democratically decide which projects shall be supported.  
+We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) evaluates the teams developing them and the Squad members democratically decide which projects shall be supported.
 
-* The privacy projects will get suported by a dececentralized, anonymous oranization, aligned with their mission.
-* The teams will be provided with the needed resources to develop, grow and deliver.
-* LunarDAO treasury accumulate supported privacy assets and the Squad manages the funds as a common portfolio.
-* The value is conserved in the ecosystem, both parties profit from the upcoming cycle.
+* The privacy projects will get supported by a decentralized, anonymous organization, aligned with their mission.  
+* The teams will be provided with the needed resources to develop, grow and deliver.  
+* LunarDAO treasury accumulate supported privacy assets and the Squad manages the funds as a common portfolio.  
+* The value is conserved in the ecosystem, both parties profit from the upcoming cycle.  
 * While leveraging collective power, every individual is protected against majority rule and can exit the DAO any time with 100% of their shares (without any fee).
 
-We believe that loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out with regressive regFi.
+We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
 
 ### Knowledge as a Value
 
-The investment sphere is LunarDAO's main focus and at the same time we see education as foundational to be able to fulfill our mission.
+The privacy investment sphere is LunarDAO's main focus. At the same time we see education as an essential value to fulfill our mission.
 
 The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers, who bring value back to the ecosystem. Education is a long-term investment.
 
@@ -109,9 +109,9 @@ LunarDAO Stewards (LunarDAO core team) is a committee dedicated to support and g
 - Information: Making sure all other DAO members are aware of proposals and are notified in time to be able to participate in voting  
 - Implementation of community decisions  
 - Investment communication & coordination
-- Media & Presentation
 - Partnerships & Networking
 - Legal advice coordination
+- Media & Presentation
 
 #### How to become a Steward
 
@@ -145,7 +145,7 @@ The suggested time frame to be a multi-sig participant is two years. The transfe
 - Proposals which are supporting regulatory measures.  
 - Proposal which are suspected of/or exposed as having malintent ie. a quickly pushed proposals which aims to drain the treasury.
 
-As a part of the [roadmap](https://luardao.net/roadmap.html); the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
+As a part of the [roadmap](https://lunardao.net/roadmap.html) the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
 
 **Sentinel members**
 
@@ -173,11 +173,11 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 
 ### Governance process
 
-- LIP (LunarDAO Improvement Proposal): A proposal is created using the template in LIP-0001.  
-- Forum discussions: A thread is created on the forum, where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
-- Voting: announced at least 7 days beforehand, open 72h for voting, one week Grace period.  
-- If treasury related -> multi-sig.  
-- If treasury unrelated -> update documents, put in practice.
+- **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://wiki.lunardao.net/lip-0001.html).  
+- **Forum discussions:** A thread is created on the forum, where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
+- **Voting:** announced at least 7 days beforehand, open 72h for voting, one week Grace period.  
+- **If treasury related** -> multi-sig.  
+- **If treasury unrelated** -> update documents, put in practice.
 
 The LunarDAO governance is not limited to LIPs or voting, decisions are also made in the community or committee meetings. Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication/interaction on the forum and on ircd. It is important to always seek discussion and encourage diversity in opinions within the community. This will aid our development in building a truly decentralized, anonymous and antifragile organization.
 
@@ -213,8 +213,8 @@ Based on the discussions with the allies & the community, the most feasible way 
 **Joining the DAO** 
 
 - LunarDAO launch is permissionless in the sense that anyone can join/invest.
-- Members can join only during period of the fundraising events
-- A minimum tribute to join is 0.1 ETH (10 shares)\*
+- Members can only join during period of the fundraising events.
+- A minimum tribute to join is 0.1 ETH (10 shares).\*
 - The initial fundraising event is the launch of LunarDAO and will be opened for a period of two weeks. 
 
 **Governance Token**
@@ -226,7 +226,7 @@ In LunarDAO Shares are represented by the symbol $VOX.
 - Minimum of 1 $VOX grants squad membership and voting power.
 - $VOX is an account bound, non-transferable token. 
 - Every 0.1 ETH of tribute to treasury mints 10 $VOX to the member (at launch, future entry price may differ based on the previous investments made).
-- When a member ragequits the, $VOX is burned.
+- When a member ragequits the $VOX is burned.
     - $VOX value in the treasury stays the same for remaining members.
     - RageQuiting member gets 100% of their funds in the form of loot.
     
@@ -241,7 +241,7 @@ Loot represents members' value of shares after RageQuit or GuildKick.
 **Fundraising Events**
 
 - A fundraising event is proposed to take place 4x in the first year. (every third month).\*
-- An investment deal is expected to happen at least once between each fundraisiong event.\*
+- An investment deal is expected to happen at least once before between each fundraising event.\*
 - If there are still unused ETH (or DAI) from the previous raise, the number of fundraising events or max cap of such event will be adjusted to this reality. \*
 - The fundraising is open two weeks the first time, and thereafter a week on each occation.\*  
 - During this time anyone can become a Squad member by tributing ETH to the treasury.\*
@@ -259,7 +259,7 @@ Loot represents members' value of shares after RageQuit or GuildKick.
 
 LunarDAO makes investments in privacy projects through the governance process, which includes research, discussion, proposals and voting. The Squad allocates funds to selected teams while building a treasury of its investments. There are several ways how to approach treasury management and govern the funds. For easier understanding we summarized them under two main types: ***Portfolio*** (or Investment club) and ***Syndicate***. These two approaches are explained with examples below. 
 
-**After the genesis event (LunarDAO launch) the default approach to fund management is *PORTFOLIO*.** However the Squad can decide to create separated guilds. To prevent disadvantage of old members' investment dilution, a bonding curve of 10% $VOX price increase is introduced for every new raise event. In the case of the existing Squad disagreement with further fundraising events to prevent dilution of past investments by the new $VOX (shares) minted for ETH ("dry powder") tributes of new members and a strong community incentive to join the squad, a separated subDAO can be established for the new raise. In such scenario the different subDAOs manage their own treasuries and their relation is based on the *SYNDICATE* model.  
+**After the genesis event (LunarDAO launch) the default approach to fund management is *PORTFOLIO*.** However the Squad can decide to create separated guilds. To prevent disadvantage of old members' investment dilution, a bonding curve of 10% $VOX price increase is introduced for every new raise event. In the case of a Squad disapproval of opening a new fundraising event (to prevent dilution of past investments) and existing community wish and incentive to join the DAO, a subDAO can be established for the new raise building a separated treasury. In such scenario the different subDAOs manage their own treasuries and their management is based on the SYNDICATE model.
 
 The following table explains these two concepts.
 
@@ -271,39 +271,39 @@ The following table explains these two concepts.
 | Exposure to the past investments:                           | Yes. New members are exposed to the old investments. | No, new members aren’t part of the portfolio of the past, only to the future investments. |
 | Aim of LunarDAO launch raise size (minimum, aim, maximum):  | 700 ETH, 7000 ETH, 15000 ETH (if hit, the smart contract expires). | *As Portfolio* |
 | How often LunarDAO runs a raise event:                      | Default: 4x the first year. An investment deal is expected to happen before any next raise. After the initial one, the formed Squad can propose to cap (# ETH) for the next raise or make a sub-DAO and switch into the *syndicate* option. Every sub-DAO makes autonomus decisions on this question. | This case happens if the Squad decides to separate to subDAOs. 4x the first year. Before any next raising event a new separated sub-DAO is opened for the new members who will manage funds separately from the other subDAOs. Every sub-DAO makes autonomus decisions and can futher continue as *portfolio* style managed DAO. |
-| How often the LunarDAO opens for new Squad members:         | Every raising event. If the Squad votes against new fundraising events while there is a strong community wish to join the DAO, a new subDAO fundraising is opened -> switch to *syndicate* option. | *As Portfolio* |
+| How often the LunarDAO opens for new Squad members:         | Every raising event. If the Squad votes against new fundraising events while there is a strong community wish to join the DAO, a new subDAO fundraising can be opened -> switch to *syndicate* option. | *As Portfolio* |
 | Condition to join LunarDAO Squad at launch:                 | Permissionless with a minimum tribute. | LunarDAO launches as *Portfolio* fund. Conditions to join future subDAOs will be discussed with the community. |
 | Condition to join LunarDAO Squad in the future:             | Default stays the same (except $VOX price - read below). The initial Squad will has a right to decide whether to keep the permissionless setup, introduce invites, raise the minimum tribute bar, limit the max Squad members or max ETH size etc. | New *syndicate* sub-DAOs are permissionless. |
 | Minimum tribute on launch | 0.1 ETH (10 $VOX). Tribute must be a multiplier of 0.1 ETH. | LunarDAO launches as portfolio based fund. |
-| On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. If the maximum raise threshold is met the contract expires, no more tributes can be submited. or based on pre-defined period. | *As Portfolio*                                      |
+| On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. If the maximum raise threshold is met the contract expires, no more tributes can be submitted. | *As Portfolio*                                      |
 | On-boarding contract expiry period (1st one/ any next one): | 2 weeks the first raise/ 1 week any other one. | Launch is portfolio type/ the future ones to be decided. |
 | $VOX (shares) price on launch:                              | 1 ETH ( + management fee 0.5%) = 100 $VOX. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
 | $VOX value calculation:                                     | 1 $VOX = LunarDAO net value / # of $VOX minted | Same formula for each subDAO |
 | $VOX (shares) price bonding curve:                          | + 10% each next funding cycle. The squad can evaluate otherwise. | The new members do not have access to the past investments, only the net value of the new treasury. There is no bonding curve. $VOX has the same price like on launch. |
-| $VOX-loot price calculation:                                | Owners loot value = owners $VOX value in the time of RageQuit (GuildKick). Including owners access to the future allocations whci are part of the RageQuited treasury. | *As Portfolio* |
+| $VOX-loot price calculation:                                | Owners loot value = owners $VOX value in the time of RageQuit (GuildKick). Including owners access to the future allocations which are part of the RageQuited treasury. | *As Portfolio* |
 | Squad membership:                                           | Everyone owning at least 1 $VOX is a Squad member. Squad members have voting power. | Everyone owning at least 1 $VOX is a Squad member, however members can vote on treasury decisions only in the guilds/ sub-DAOs in which their $VOX (shares) are allocated. |
-| Overall governace changes: | Discussion -> LIP -> vote -> implication | All the sub-DAOs together and counted as one DAO with vote event. Every 1 $VOX = 1 vote. |
-| Management/admin fee: | 0.5% from each tribute; 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes |
-| Further operational expences: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Vote power is per the proposed asset weight in different subDAOs. If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
+| Overall governance changes: | Discussion -> LIP -> vote -> implementation | All the sub-DAOs together and counted as one DAO with vote event. Every 1 $VOX = 1 vote. |
+| Management/admin fee: | 0.5% from each tribute, 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes. |
+| Further operational expenses: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Vote power is calculated from the proposed asset weight from different subDAOs and their members. If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
 
 *Portfolio* and *Syndicate* fund management options are explained below, including examples.
 
 ### Portfolio/ Investment Club
 
-By default all the assets are pooled in the DAO main treasury. The new members joining are part of the same portfolio and exposed to the past investments. The Squad members can decide to set up any further guilds or sub-DAOs (just like in the syndicate design). Every Squad member can RageQuit at any time transfer their $VOX (shares) value to $VOX-loot. RageQuited members can re-join during the next raising event.
+By default all the assets are pooled in the DAO main treasury. The new members joining are part of the same portfolio and exposed to the past investments. The Squad members can decide to set up any further guilds or sub-DAOs (just like in the syndicate design). Every Squad member can RageQuit at any time and transfer their $VOX (shares) value to $VOX-loot. RageQuited members can re-join during the next raising event.
 
 **Genesis Event: DAO launch & the initial raise**
 
 * Price: 100 $VOX (shares) = 1 ETH
 * Minimum tribute: 0.1 ETH
 * Permissionless entry
-* Contract has upper limit & time expiry; mints shares according to investors' tribute size, the price of everyone's shares is the same.
+* Contract has an upper limit & time expiry, mints shares according to investors' tribute size. The price of everyone's shares is the same.
 
 ***Example***
 
 *In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
 
-In the real life scenario the amount of $VOX (shares) will be arbitrary per each member as the tribute sizes will differ. Some members will likely RageQuit with their funds during the DAOs life cycle. This example is simplified to explain the portfolio logic.
+In a real life scenario the amount of $VOX (shares) will be arbitrary per each member as the tribute sizes will differ. Some members will likely RageQuit with their funds during the DAOs life cycle. This example is simplified to explain the portfolio logic.
 
 * 100 people join the Squad for 10 ETH each -> 1000 $VOX (shares) each.
 * Treasury net = 1000 ETH; 100 000 $VOX (shares) was minted.
@@ -345,7 +345,7 @@ Because the new members have access to the deals of the past, the entry price is
 * Permissionless but time & max cap limited entry. 
 * At any point members can exit with their funds partly or fully.
 * The Squad can decide if, how and when to do next rasing events.
-* A bonding curve adds 10% to the price of $VOX (shares) for every next raising event to balance investment dillution.
+* A bonding curve adds 10% to the price of $VOX (shares) for every next raising event to balance investment dilution.
 * Every member can add more funds during the next fundraising event.
 * All Squad members share a RageQuitable portfolio together, equal to the size of their tribute.
 * The Squad can decide to open separated guilds.
@@ -358,24 +358,24 @@ There are cases in which all the votes across the subDAOs are seen as one DAO an
 
 a) Overall Governance change proposal which has an impact on everyone (remove multi-sig, change number of Sentinels, change the whitepaper etc)
 
-b) A core-team proposal to cover additional costs: If such proposal passes the payment is taken proportionaly to the token weights of the subDAOs (and their members). 
+b) A core-team proposal to cover additional costs: If such proposal passes the payment is taken proportionally to the token weights of the subDAOs (and their members). 
 
-If at least 50%+1 $VOX of total voting weight across the subDAOs is not for the proposal, the proposal is canceled, needs to be re-done.
+If less than 50% + 1 $VOX of total voting weight across the subDAOs is for the proposal, the proposal is rejected.
 
 *(Alternatively the assets can be still pooled together but an on-chain Snapshot of $VOX at the time of the investment is taken. The DAO uses proxy tokens to track who had tokens at the time of investment. This greatly simplifies raising, because every new treasury is always ETH.)*
 
 **Genesis Event: DAO launch & the initial raise**
 
 * Price: 100 $VOX (shares) = 1 ETH
-* Minimum tribute: To be decided as the the DAO launches as portfolio by default
+* Minimum tribute: To be decided as the the DAO launches as portfolio by default.
 * Permissionless entry
-* Contract has upper limit & time expiry; mints shares according to investors' tribute size, the price of everyone's shares is the same.
+* Contract has upper limit & time expiry. mints shares according to investors' tribute size. The price of everyone's shares is the same.
 
 ***Example***
 
 *In examples we will use place holders X, Y & Z for supported project and Tx, Ty & Tz for their tokens*
 
-In the real life scenario the amount of shares (the tribute) will be arbitrary per each member and some members will likely RageQuit with their funds. This example is simplified to get the understanding of the portfolio logic.
+In a real life scenario the amount of shares (the tribute) will be arbitrary per each member and some members will likely RageQuit with their funds. This example is simplified to get the understanding of the syndicate logic.
 
 * 100 people join the Squad for 10 ETH each -> 1000 $VOX (shares) each.
 * Treasury net = 1000 ETH; 100 000 $VOX (shares) was minted.
@@ -386,7 +386,7 @@ In the real life scenario the amount of shares (the tribute) will be arbitrary p
 
 **Second LunarDAO raising event**
 
-Because the new members joining another entity, separated from the initial DAO launch treasury, raise looks like the same like the Genesis Event. In such scenario each sub-DAO manages their funds on their own in parallel to each other. 
+Because the new members joining another entity, separated from the initial DAO launch treasury, raise looks the same like the Genesis Event. In such scenario each sub-DAO manages their funds on their own in parallel to each other. 
 
 **Overall Governance Changes**
 
@@ -395,7 +395,7 @@ Decisions regarding to the general governance is voted in all the sub-DAOs toget
 ***Example***
 
 * Genesis event -> DAO launch -> 1m $VOX across 100 members
-* Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO
+* Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
 * New subDAO launches -> 500 000 $VOX across 50 members
 * Proposal to remove multi-sig from the DAO execution -> vote will be in the overall DAO consisting of the sum of all $VOX in all subDAOs.
 * Total $VOX in all subDAOs = 150m. 
@@ -405,18 +405,18 @@ Decisions regarding to the general governance is voted in all the sub-DAOs toget
 
 **LunarDAO operation funding proposal**
 
-A core-team proposal to cover additional costs for the dministration, dev, ops, media, research etc. The proposal is for the entire LunarDAO (all the subDAOs). The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs, every 1 $VOX = 1 vote.
+A core-team proposal to cover additional costs for the administration, dev, ops, media, research etcetera. The proposal is for the entire LunarDAO (all the subDAOs). The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs, every 1 $VOX = 1 vote.
 
 ***Example***
 
-* Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH)
-* DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx
-* Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO
-* New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH)
+* Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH).
+* DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx.
+* Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
+* New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
 * There are 2 subdDAOs now.
 * The core team submits LIP to get 30 ETH funding for the work done. -> vote will be in the overall DAO consisting of the sum of all ETH in all subDAOs.
-* As the impact per member is on their ETH, the voting power it ETH weighted -> every subDAO 2 member has 2x voting power per $VOX as they have 2x bigger exposure to ETH than the subDAO 1 members
-* If the vote passes 30 ETH are sent proportionaly to the ETH weights per each LunarDAO member.
+* As the impact per member is on their ETH, the voting power it ETH weighted -> every subDAO 2 member has 2x voting power per $VOX as they have 2x bigger exposure to ETH than the subDAO 1 members.
+* If the vote passes 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
     * 10 ETH is sent from SubDAO 1 members in total
     * 20 ETH is sent from SubDAO 2 members in total
 
@@ -424,22 +424,20 @@ A core-team proposal to cover additional costs for the dministration, dev, ops, 
 
 * Every new raise cycle is unrelated to the previous investments. 
 * New subDAOs mint $VOX (shares) for the same price like the previous ones, no bonding curve.
-* Old members are inaffected by the new members, no dillution, no more funds in the existing subDAOs.
+* Old members are inaffected by the new members, no dilution, no more funds in the existing subDAOs.
 * Each member can be part of multiple sub-DAOs.
-* Decisions regarding to the general governance is voted in all the sub-DAOs together and counted as one vote event.
-* Core team additional funding. The asset proposed is a sum of all subDAOs sizes of that asset. Vote power is per the proposed asset weight per member. 
-    - If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members.
+* Decisions regarding the general governance is voted in all the sub-DAOs together and counted as one vote event.
+* Core-team additional funding: All sub-DAOs are treated as one DAO. They vote together on the proposed size of funding. Vote power is calculated from the proposed asset weight per member. If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members.
 
-## Investment
+## Investments
 
-To support privacy projects, research and education are the main purposes of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography and knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects in the form of their token and or knowledge and tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
+To support privacy projects, investment, research and education are the main purposes of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography and knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects in the form of their token and or knowledge and tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
 
 ### Investment Flow
 
 *In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
 
-Project X offers a ticket of # of T tokens or any other value to the ecosystem in exchange for LunarDAO financial support (investment). After a community discussion, the project is evaluated by the research team and proposed to submit an invetment LIP in which it must be clearly defined:
-
+Project X offers a ticket of # of T tokens or any other value to the ecosystem in exchange for LunarDAO financial support (investment). After a community discussion, the project is evaluated by the research team and proposed to submit an investment LIP in which it must be clearly defined:
 
 * Problem solving: Project X value for the ecosystem (knowledge, tools etc)
 * Requested size of support in USD terms
@@ -465,13 +463,13 @@ Project X offers a ticket of # of T tokens or any other value to the ecosystem i
 11. LunarDAO treasury wallet address to recieve token Tx in agreed time, amount and price: lunarpunksquad.eth
 ```
 
-LunarDAO Squad will vote on the proposal of investment (see Governance chapter above). Project X sends the promissed tokens to LunarDAO treasury or in case of an illiquid (yet) state, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in excahnge for the support sent to the project X's address.
+LunarDAO Squad will vote on the proposal of investment (see Governance chapter above). Project X sends the promised tokens to LunarDAO treasury or in case of an illiquid (yet) state, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in exchange for the support sent to the project X's address.
 
 ## Conclusion
 
 LunarDAO is an anonymity-first organization. However our mission is bigger than that. With the objective to build a strong united Squad accountable to the common mission and shared wealth. Looking into investment DAOs based on Moloch V1 & V2, listening to the allies in chats and multiple meetings with builders, we believe that LunarDAO should not kick-off as an experiment, instead start on well tested mechanisms. 
 
-The Portfolio and Syndicate fund management options are perhaps the largest question to be continuosuly discussed. We believe that the launch may be easier and more interesting with the Portfolio option as a default, which leaves the door open for anyone to join the Squad and decide in the future how to manage further fundraising events, guilds, sub-DAOs and all the changes.   
+The Portfolio and Syndicate fund management options are perhaps the largest question to be continuosly discussed. We believe that the launch may be easier and more interesting with the Portfolio option as a default, which leaves the door open for anyone to join the Squad and decide in the future how to manage further fundraising events, guilds, sub-DAOs and all the changes.   
 
 We would like to remind all the participants to protect themselves and read our [docs on anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and use Aztec or TornadoCash mixers, ensure network protection and [change RPC](https://wiki.lunardao.net/change_rpc.html) as a basis to join LunarDAO.
 
@@ -487,7 +485,6 @@ We would like to remind all the participants to protect themselves and read our 
 * [Moloch Baal - V3](https://github.com/Moloch-Mystics/Baal)
 * [DaoHaus](https://daohaus.club/docs/handbook/)
 * [Summon a DAO](https://summon.daohaus.fun/)
-* [LunarDAO tokenomics V1](https://wiki.lunardao.net/tokens.html) - this model will NOT be used, however this report refers to it in some parts
 * [LunarDAO Manifesto](https://wiki.lunardao.net/)
 * [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html)
 * [LunarDAO Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
