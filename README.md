@@ -73,11 +73,11 @@ A LunarDAO Squad member is every community member who owns $VOX (shares). During
 
 ### Voting
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which squad members can ragequit should they disagree with the result of the voting.
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which squad members can ragequit should they disagree with the result of the voting.
 
 ### Minimum retention
 
-To prevent dilution of assets, minimum retention is 25%. That means that if 75% of shares are ragequitted, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with new circumstance.
+To prevent dilution of assets, minimum retention is 33%. That means that if 33% of shares ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with new circumstance.
 
 ### RageQuit
 
@@ -85,7 +85,7 @@ Ragequit enables squad members to exit with their funds, without penalty, if the
 
 ### Grace Period
 
-The Grace period, which is seven days, is the time period during which members can Ragequit if the disagree with the result of a vote. At the end of the Grace Period, the proposal which has been voted on is processed by calling the processProposal function. It is the responsibility of Stewards to call this function.
+The Grace period, which is 72h, is the time period during which members can Ragequit if the disagree with the result of a vote. At the end of the Grace Period, the proposal which has been voted on is processed by calling the processProposal function. It is the responsibility of Stewards to call this function.
 
 ### GuildKick
 
@@ -112,6 +112,8 @@ LunarDAO Stewards (LunarDAO core team) is a committee dedicated to support and g
 - Partnerships & Networking
 - Legal advice coordination
 - Media & Presentation
+
+Stewards have a separated 3/6 multisig for their operation. Fees of 0.25% from tribute and 0.5% per executed investment are sent to this wallet. Any other funding and budget has to be proposed via investment LIP and voted upon as any other proposal. Stewards' wallet: [0xab501a8eb58c9780eb04d683feb504fce391a2dd](https://etherscan.io/address/0xab501a8eb58c9780eb04d683feb504fce391a2dd)
 
 #### How to become a Steward
 
@@ -145,6 +147,8 @@ The suggested time frame to be a multi-sig participant is two years. The transfe
 - Proposals which are supporting regulatory measures.  
 - Proposal which are suspected of/or exposed as having malintent ie. a quickly pushed proposals which aims to drain the treasury.
 
+If Sentinels reject a proposal, they are expected to share a report which include the motivation for this decision before the next community meeting after the event. The decision and content of the mentioned report will be included, discussed and evaluated in this meeting.
+
 As a part of the [roadmap](https://lunardao.net/roadmap.html) the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
 
 **Sentinel members**
@@ -175,7 +179,7 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 
 - **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://wiki.lunardao.net/lip-0001.html).  
 - **Forum discussions:** A thread is created on the forum, where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
-- **Voting:** announced at least 7 days beforehand, open 72h for voting, one week Grace period.  
+- **Voting:** announced at least 7 days beforehand, open 72h for voting, 72h Grace period.  
 - **If treasury related** -> multi-sig.  
 - **If treasury unrelated** -> update documents, put in practice.
 
@@ -250,9 +254,9 @@ Loot represents members' value of shares after RageQuit or GuildKick.
 
 - LunarDAO has 6 [Stewards](https://wiki.lunardao.net/governance.html#stewards) (core-team members, founders) at the time of launch.
 - Several externals are supporting with design, administration, legal questions, web3 development and translations.
-- A management/admin fee of 0.5% is sent to core-team multi-sig wallet (ETH: 0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD). This fee is calculated from:  
-    a) The initial tribute of every new member.  
-    b) With execution of every investment.
+- A management/admin/dev fee is sent to core-team multi-sig wallet (ETH: 0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD). Management fee calculation:  
+    a) Entry: 0.25% from the initial tribute of every new member.  
+    b) Investment: 0.5% of every investment execution (after vote+grace period).
 - To fund further expences and costs an LIP is submitted and voted upon.
 
 ## Fund Management
@@ -277,14 +281,14 @@ The following table explains these two concepts.
 | Minimum tribute on launch | 0.1 ETH (10 $VOX). Tribute must be a multiplier of 0.1 ETH. | LunarDAO launches as portfolio based fund. |
 | On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. If the maximum raise threshold is met the contract expires, no more tributes can be submitted. | *As Portfolio*                                      |
 | On-boarding contract expiry period (1st one/ any next one): | 2 weeks the first raise/ 1 week any other one. | Launch is portfolio type/ the future ones to be decided. |
-| $VOX (shares) price on launch:                              | 1 ETH ( + management fee 0.5%) = 100 $VOX. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
+| $VOX (shares) price on launch:                              | 1 ETH ( + management fee 0.25%) = 100 $VOX. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
 | $VOX value calculation:                                     | 1 $VOX = LunarDAO net value / # of $VOX minted | Same formula for each subDAO |
 | $VOX (shares) price bonding curve:                          | + 10% each next funding cycle. The squad can evaluate otherwise. | The new members do not have access to the past investments, only the net value of the new treasury. There is no bonding curve. $VOX has the same price like on launch. |
 | $VOX-loot price calculation:                                | Owners loot value = owners $VOX value in the time of RageQuit (GuildKick). Including owners access to the future allocations which are part of the RageQuited treasury. | *As Portfolio* |
 | Squad membership:                                           | Everyone owning at least 1 $VOX is a Squad member. Squad members have voting power. | Everyone owning at least 1 $VOX is a Squad member, however members can vote on treasury decisions only in the guilds/ sub-DAOs in which their $VOX (shares) are allocated. |
 | Overall governance changes: | Discussion -> LIP -> vote -> implementation | All the sub-DAOs together and counted as one DAO with vote event. Every 1 $VOX = 1 vote. |
-| Management/admin fee: | 0.5% from each tribute, 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes. |
-| Further operational expenses: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Vote power is calculated from the proposed asset weight from different subDAOs and their members. If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
+| Management/admin fee: | Entry: 0.25% from each tribute, 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes. |
+| Further operational expenses: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Vote power is calculated from the proposed asset weight from different subDAOs and their members -> SUM(asset weight * # $VOX). If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
 
 *Portfolio* and *Syndicate* fund management options are explained below, including examples.
 
@@ -352,7 +356,7 @@ Because the new members have access to the deals of the past, the entry price is
 
 ### Syndicate
 
-Each fundraising cycle (possibly each investment) is treated as a separated entity, unique sub-DAO. Members joining in future fundraising events share a new treasury (sub-DAO or a guild) without an access to the investments from the past. All treasury related proposals have impact only on the separated guild/sub-DAO in which the proposing Squad member is at. The management/admin fee (0.5% for new members and per investment execution) is applied on each subDAOs.  
+Each fundraising cycle (possibly each investment) is treated as a separated entity, unique sub-DAO. Members joining in future fundraising events share a new treasury (sub-DAO or a guild) without an access to the investments from the past. All treasury related proposals have impact only on the separated guild/sub-DAO in which the proposing Squad member is at. The management/admin fee (0.25% for new members and 0.5 per investment execution) is applied on each subDAOs.  
 
 There are cases in which all the votes across the subDAOs are seen as one DAO and vote on a decision together. In such cases the votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs, every 1 $VOX = 1 vote. The scenarios include:
 
@@ -415,7 +419,9 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
 * New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
 * There are 2 subdDAOs now.
 * The core team submits LIP to get 30 ETH funding for the work done. -> vote will be in the overall DAO consisting of the sum of all ETH in all subDAOs.
-* As the impact per member is on their ETH, the voting power it ETH weighted -> every subDAO 2 member has 2x voting power per $VOX as they have 2x bigger exposure to ETH than the subDAO 1 members.
+* As the impact per member is on their ETH, the voting power it ETH weighted 
+* The vote calculation from all voting members: SUM(ETH weight/$VOX * # $VOX)
+* In this example: Each subDAO 2 member has 2x voting power per $VOX as they have 2x bigger ETH weight and 2x bigger exposure to ETH than the subDAO 1 members.
 * If the vote passes 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
     * 10 ETH is sent from SubDAO 1 members in total
     * 20 ETH is sent from SubDAO 2 members in total
