@@ -73,7 +73,7 @@ A LunarDAO Squad member is every community member who owns $VOX (shares). During
 
 ### Voting
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. Voting should be announced at least 7 days ahead of time and voting shall be open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period, during which squad members can ragequit should they disagree with the result of the voting.
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. It is preferred that voting is announced a week ahead, though initially decisions will need to be made faster and the time will likely be shortened. Voting is open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period of 72h, during which squad members can ragequit should they disagree with the result of the voting.
 
 ### Minimum retention
 
@@ -85,7 +85,7 @@ Ragequit enables squad members to exit with their funds, without penalty, if the
 
 ### Grace Period
 
-The Grace period, which is 72h, is the time period during which members can Ragequit if the disagree with the result of a vote. At the end of the Grace Period, the proposal which has been voted on is processed by calling the processProposal function. It is the responsibility of Stewards to call this function.
+The Grace period, which is 72h, is the time period during which members can Ragequit if they disagree with the result of a vote. At the end of the Grace Period, the proposal which has been voted on is processed by calling the processProposal function. It is the responsibility of Stewards to call this function.
 
 ### GuildKick
 
@@ -179,7 +179,7 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 
 - **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://wiki.lunardao.net/lip-0001.html).  
 - **Forum discussions:** A thread is created on the forum, where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
-- **Voting:** announced at least 7 days beforehand, open 72h for voting, 72h Grace period.  
+- **Voting:** it is suggested that announcement happen at least 7 days beforehand, open 72h for voting, 72h Grace period.  
 - **If treasury related** -> multi-sig.  
 - **If treasury unrelated** -> update documents, put in practice.
 
@@ -211,7 +211,6 @@ Based on the discussions with the allies & the community, the most feasible way 
 
 - LunarDAO is setup on top of the [Gnosis safe multi-sig](https://lunardao.net/sentinel-committee-announcement.html). The DAO start with a trusted (and more secure) setup and plan a roadmap milestone to discuss, propose (LIP) and vote on a multi-sig removal in a forseeable future -> full trustless setup. \*
 - LunarDAO is launched on existing [contracts](https://github.com/Moloch-Mystics/Baal) and customized version of the [UI by DAOhaus](https://summon.daohaus.fun/).  
-- The architecture include a *Shaman* with **Permission 3**: pause, mint, burn shares and loot without DAO proposal. Governor permission not preferred as changes are based on LIP. 
 - Further upgrades and customization will be discussed in the community and voted upon by the Squad.\*
 
 **Joining the DAO** 
@@ -256,7 +255,7 @@ Loot represents members' value of shares after RageQuit or GuildKick.
 - Several externals are supporting with design, administration, legal questions, web3 development and translations.
 - A management/admin/dev fee is sent to core-team multi-sig wallet (ETH: 0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD). Management fee calculation:  
     a) Entry: 0.25% from the initial tribute of every new member.  
-    b) Investment: 0.5% of every investment execution (after vote+grace period).
+    b) Investment: 0.5% of every investment execution (after vote + grace period).
 - To fund further expences and costs an LIP is submitted and voted upon.
 
 ## Fund Management
@@ -288,7 +287,7 @@ The following table explains these two concepts.
 | Squad membership:                                           | Everyone owning at least 1 $VOX is a Squad member. Squad members have voting power. | Everyone owning at least 1 $VOX is a Squad member, however members can vote on treasury decisions only in the guilds/ sub-DAOs in which their $VOX (shares) are allocated. |
 | Overall governance changes: | Discussion -> LIP -> vote -> implementation | All the sub-DAOs together and counted as one DAO with vote event. Every 1 $VOX = 1 vote. |
 | Management/admin fee: | Entry: 0.25% from each tribute, 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes. |
-| Further operational expenses: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Vote power is calculated from the proposed asset weight from different subDAOs and their members -> SUM(asset weight * # $VOX). If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
+| Further operational expenses: | LIP is submitted and voted upon. | LIP is submitted and voted upon. Two options: a) Divided budget proposals to each sub-DAO, based on their ETH weight (SUM(proposed ETH \* sub_DAO ETH / all sub-DAOS ETH total)). b) One proposal to sub-DAOs combined into one DAO. Vote power is calculated from the proposed asset weight from different subDAOs and their members -> SUM(asset weight \* # $VOX). If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members. |
 
 *Portfolio* and *Syndicate* fund management options are explained below, including examples.
 
@@ -409,20 +408,53 @@ Decisions regarding to the general governance is voted in all the sub-DAOs toget
 
 **LunarDAO operation funding proposal**
 
-A core-team proposal to cover additional costs for the administration, dev, ops, media, research etcetera. The proposal is for the entire LunarDAO (all the subDAOs). The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs, every 1 $VOX = 1 vote.
+A core-team proposal to cover additional costs for the administration, dev, ops, media, research etcetera. The proposal can be approached in two different ways:  
 
-***Example***
+* a) Divided budget proposals to each sub-DAO
+* b) One proposal to one DAO conposed of all the sub-DAOs
+
+**a)** The team divides the total sum of proposed budget between the sub-DAOs based on their weight of the given asset (ie ETH) and submits each of them as a separated proposal. The size of these proposals is calculated:
+
+***SUM(total funding proposal ETH \* sub-DAO ETH weight / sumETH(all sub-DAOs))***
+
+***Example a)***
 
 * Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH).
 * DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx.
 * Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
 * New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
 * There are 2 subdDAOs now.
-* The core team submits LIP to get 30 ETH funding for the work done. -> vote will be in the overall DAO consisting of the sum of all ETH in all subDAOs.
-* As the impact per member is on their ETH, the voting power it ETH weighted 
-* The vote calculation from all voting members: SUM(ETH weight/$VOX * # $VOX)
-* In this example: Each subDAO 2 member has 2x voting power per $VOX as they have 2x bigger ETH weight and 2x bigger exposure to ETH than the subDAO 1 members.
-* If the vote passes 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
+* The core team submits LIP to get 30 ETH funding for the work done. -> ***the proposal size will be divided between the sub-DAOS and voted upon by each of them separately.***
+* The division formula is:
+    - Total ETH: SUM(all sub-DAOs ETH) = (sub-DAO1 ETH) + (sub-DAO2 ETH) = 5 000 + 10 000 = 15 000 ETH
+    - Funding proposal = 30 ETH
+    - Proposal to sub-DAO1 = total funding proposal ETH \* sub-DAO1 ETH / total ETH = 30 \* 5000 / 15 000 = 10 ETH
+    - Proposal to sub-DAO2 = total funding proposal ETH \* sub-DAO2 ETH / total ETH = 30 \* 10000 / 15 000 = 20 ETH
+* Core team submits 2 LIPs: 10 ETH to subDAO1 and 20 ETH to sub-DAO2
+* Each of them vote separately according to the governance rules.
+* Each sub-DAO and it's member votes as usual: 1 $VOX = 1 vote, the votes only impact the decision in the given sub-DAO.
+* The core team may be supported by all, none or either of the existing sub-DAOs. 
+* New proposals can be submitted per governance guidelines.
+
+**b)** The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs. The vote would have to be based on the proposed asset weight per members' $VOX (shares), ie ETH if proposal is for ETH funding:  
+
+***voting SUM(ETH weight / $VOX \* # $VOX)***
+
+***Example b)***
+
+* Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH).
+* DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx.
+* Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
+* New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
+* There are 2 subdDAOs now.
+* The core team submits LIP to get 30 ETH funding for the work done. -> ***The proposal will be submitted and voted upon in the parent DAO consisting of the sum of all ETH in all subDAOs.***
+* As the impact per member is on their ETH, the voting power is ETH weighted 
+* The vote calculation from all voting members: SUM(ETH weight/$VOX \* # $VOX)
+    - sub-DAO1 member with 1000 $VOX (shares) = 0.5 / 1 \* 1000 = 500 votes
+    - sub-DAO2 member with 1000 $VOX (shares) = 1 / 1 \* 1000 = 1000 votes
+* In this example: Each subDAO2 member has 2x voting power per $VOX than sub-DAO1 member, as they have 2x bigger ETH weight and 2x bigger ETH exposure to than the sub-DAO1 members.
+* The proposal in it's entirety either passes or not. 
+* If the vote passes: 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
     * 10 ETH is sent from SubDAO 1 members in total
     * 20 ETH is sent from SubDAO 2 members in total
 
@@ -433,7 +465,7 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
 * Old members are inaffected by the new members, no dilution, no more funds in the existing subDAOs.
 * Each member can be part of multiple sub-DAOs.
 * Decisions regarding the general governance is voted in all the sub-DAOs together and counted as one vote event.
-* Core-team additional funding: All sub-DAOs are treated as one DAO. They vote together on the proposed size of funding. Vote power is calculated from the proposed asset weight per member. If agreed, the payment is sent proportionally to the token weights of the subDAOs and its members.
+* Core-team additional funding: Possible options to make one all-DAO proposal or divide them per sub-DAOs and their ETH weights. 
 
 ## Investments
 
@@ -485,12 +517,15 @@ We would like to remind all the participants to protect themselves and read our 
 
 ## Resources & References
 
-* [LunarDAO architecture discussion](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45)
-* [MolochDAO V2](https://github.com/MolochVentures/moloch)
-* [Metacartel Ventures whitepaper](https://github.com/metacartel/MCV/blob/master/MCV-Whitepaper.md#asset-management)
+* [LunarDAO web](https://lunardao.net)
+* [LunarDAO wiki & full manifesto](https://wiki.lunardao.net)
+* [LunarDAO architecture discussion](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45)  
+* [DAOhaus Moloch 3 infrastructure](https://daohaus.club/moloch)
+* [DaoHaus Baal Github - Moloch V3](https://github.com/HausDAO/Baal/tree/feat/baalZodiac/contracts)  
+* [Baal docs - Moloch V3](https://moloch.daohaus.fun/)
 * [Moloch Baal - V3](https://github.com/Moloch-Mystics/Baal)
 * [DaoHaus](https://daohaus.club/docs/handbook/)
 * [Summon a DAO](https://summon.daohaus.fun/)
-* [LunarDAO Manifesto](https://wiki.lunardao.net/)
 * [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html)
-* [LunarDAO Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
+* [LunarDAO: Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
+* [LunarDAO: Roadmap](https://lunardao.net/roadmap.html)
