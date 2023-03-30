@@ -1,4 +1,4 @@
-![](https://github.com/lunardao/dao/blob/master/moon3.gif)
+![](https://github.com/lunardao/dao/blob/master/pic/moon3.gif)
 
 # LUNARDAO WHITEPAPER
 
@@ -37,19 +37,27 @@ LunarDAO mission is the manifestation of lunarpunk vision which enables the fore
 
 ## Investment Thesis
 
-[LunarDAO](https://lunardao.net/) is an **INVESTMENT FUND INTO PRIVACY PROJECTS & ANONYMITY TOOLING**, a squad wealth based DAO spreading [Lunarpunk narrative and philosophy](https://wiki.lunardao.net/). 
+[LunarDAO](https://lunardao.net/) is an **INVESTMENT FUND INTO PRIVACY PROJECTS & ANONYMITY TOOLING**, a squad wealth based DAO spreading [Lunarpunk narrative, philosophy](https://wiki.lunardao.net/) and building [infrastructure](https://lunardao.net/roadmap.thml). 
 
-Anonymity and privacy oriented developers will face an increasing difficulty in finding support among traditional VC's and investment funds, because of regulatory measures. This will lead into a dynamic where the developing teams will be forced to sell their work underpriced to counterparties who don't share the same vision. This scenario a portrays privacy as a taboo, developers are under stress and value is extracted from the ecosystem.
+### Problem
+
+Anonymity and privacy oriented developers will face an increasing difficulty in finding support among traditional VC's and investment funds, because of regulatory measures. This will lead into a dynamic where the developing teams will be forced to sell their work underpriced to counterparties who don't share the same vision. This scenario portrays privacy as a taboo, developers are under stress and value is extracted from the ecosystem.
 
 We don't accept the future to be so grim. The prospect of privacy is ultimately bullish. LunarDAO offers a solution.
 
-We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) evaluates the teams developing them and the Squad members democratically decide which projects shall be supported.
+### Solution
 
-* The privacy projects will get supported by a decentralized, anonymous organization, aligned with their mission.  
+We form a decentralized squad of sovereign individuals and lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discusses which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) looks for the solutions, and lists them in the [Investment Portal](https://github.com/lunardao/research/tree/master/investment_portal#primitives). The Squad members  vote on the proposals and invest in the chosen projects.
+
+**Gains**
+
+* The privacy projects will get support from a decentralized, anonymous organization, aligned with their mission.  
 * The teams will be provided with the needed resources to develop, grow and deliver.  
-* LunarDAO treasury accumulate supported privacy assets and the Squad manages the funds as a common portfolio.  
-* The value is conserved in the ecosystem, both parties profit from the upcoming cycle.  
+* LunarDAO Squad is a privacy investor building a treasury (portfolio) of accumulated privacy assets.  
+* The value is conserved in the ecosystem, both parties profit from the upcoming lunarpunk cycle.  
 * While leveraging collective power, every individual is protected against majority rule and can exit the DAO any time with 100% of their shares (without any fee).
+
+For the current list of primitives and projects discussed as possible investments, visit our [Investment portal](https://github.com/lunardao/research/tree/master/investment_portal).
 
 We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
 
@@ -58,6 +66,8 @@ We believe that the loop of tightening regulations and growing demand for privac
 The privacy investment sphere is LunarDAO's main focus. At the same time we see education as an essential value to fulfill our mission.
 
 The DAO creates possibilities for technical literacy by building [research](https://wiki.lunardao.net/anoma.html) and [wiki](https://wiki.lunardao.net/intro.html) and supporting [educational](https://wiki.lunardao.net/academy_intro.html) structures such as the partnering project [Adalan Academy](https://adalanacademy.org), where people can acquire knowledge and master skills in programming and economy while developing a philosophical frame to generate the future path of lunarpunk ecosystem. Such education empowers the community and shape thinkers, who bring value back to the ecosystem. Education is a long-term investment.
+
+![](https://github.com/lunardao/dao/blob/master/pic/landscape01.jpg)
 
 ## Governance
 
@@ -185,13 +195,17 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 
 The LunarDAO governance is not limited to LIPs or voting, decisions are also made in the community or committee meetings. Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication/interaction on the forum and on ircd. It is important to always seek discussion and encourage diversity in opinions within the community. This will aid our development in building a truly decentralized, anonymous and antifragile organization.
 
-![](https://github.com/lunardao/dao/blob/master/landscape01.jpg)
-
 ## LunarDAO Architecture
 
 The design puts an emphasis on anonymity combined with permissionless entry for the initial Squad formation. Both are essential for a privacy oriented investment fund which aims to develop infrastructure for parallel economy.
 
-Based on the discussions with the allies & the community, the most feasible way for the LunarDAO architecture to meet its aim, was decided to be [MolochDAO V3](https://github.com/Moloch-Mystics/Baal) model. The contracts have much more optionality on both the initial setup and throughout the DAO life time in comparison to Moloch V2. V3 is also easier to set up and launch upon, possibly using existing UI and implement changes on the fly, in a more democratic manner (based on community discussions and squad vote).
+### Moloch v3
+
+Based on the discussions with the allies & the community, the most feasible way for the LunarDAO architecture to meet its aim, was decided to be [MolochDAO V3](https://github.com/Moloch-Mystics/Baal) primitive, designed by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO governance architecture. The Moloch V3 contracts have much more optionality on both the initial setup and throughout the DAO life time in comparison to Moloch V2. V3 is also easier to set up and launch upon, possibly using existing UI and implement changes on the fly, in a more democratic manner (based on community discussions and squad vote).
+
+
+*Anatomy of a Moloch V3 DAO in DAOhaus. Courtesy of [DAOhaus](https://daohaus.club/moloch)* 
+![](https://github.com/lunardao/dao/blob/master/pic/moloch_v3_anatomy_daohaus.png)
 
 ### Terminology
 
@@ -469,28 +483,20 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
 
 ## Investments
 
-To support privacy projects, investment, research and education are the main purposes of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography and knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects in the form of their token and or knowledge and tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
+*See LunarDAO [Investment portal](https://github.com/lunardao/research/tree/master/investment_portal) for current updates related to investments.*
+
+To support privacy projects by investing in them is the main purpose of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography, autonomy and users' knowledge. To choose meaningful projects and help them grow is vital. A reward for the LunarDAO community is the shared value of these projects in the form of their token and the knowledge and tools they build. It is a mutual harmony in which the growth of one empowers the other and vice versa. This symbiotic relationship slowly but steadily replaces the bare desert of surveillance and hegemony.
 
 ### Investment Flow
 
 *In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
 
-Project X offers a ticket of # of T tokens or any other value to the ecosystem in exchange for LunarDAO financial support (investment). After a community discussion, the project is evaluated by the research team and proposed to submit an investment LIP in which it must be clearly defined:
-
-* Problem solving: Project X value for the ecosystem (knowledge, tools etc)
-* Requested size of support in USD terms
-* Offered amount of tokens Tx and the price valuation(if the project is monetary based)
-* Trigger event: Time period needed for execution or expected time of launch (when Tx becomes liquid)
-* Is the team X supported by private investors or VCs, other DAOs (or plans to) or just LunarDAO?
-* If yes: In which size and what is the price of token Tx to other supporting subjects?
-* If project X is token based: Tx tokenomics
-* Wallet address to recieve the support
-
+Project X is proposed to be financialy supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
 
 ```yaml
 1. Name of the project
 2. Date
-3. Problem solving/Project X's value for to the ecosystem (new primitives, tools, knowledge, monetary etc)
+3. Project X's value to the ecosystem (problem solving, new primitives, tools, knowledge, monetary etc)
 4. Requested size of support in USD terms
 5. Offered amount of Project X tokens Tx and price per USD (if the project is monetary based)
 6. Trigger event: Tokens Tx will be send to LunarDAO treasury/Time period needed for execution or expected time of launch (when Tx becomes liquid)
@@ -500,8 +506,7 @@ Project X offers a ticket of # of T tokens or any other value to the ecosystem i
 10. Project X's wallet address to recieve the support
 11. LunarDAO treasury wallet address to recieve token Tx in agreed time, amount and price: lunarpunksquad.eth
 ```
-
-LunarDAO Squad will vote on the proposal of investment (see Governance chapter above). Project X sends the promised tokens to LunarDAO treasury or in case of an illiquid (yet) state, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in exchange for the support sent to the project X's address.
+LunarDAO Squad votes on the proposal of investment (see [Governance](https://github.com/lunardao/dao#voting) for more details). Project X escrows the promised tokens to LunarDAO treasury as a part of the on-chain proposal, or in case of an illiquid (yet) token Tx, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in exchange for the support sent to the project X's wallet address.
 
 ## Conclusion
 
@@ -513,13 +518,14 @@ We would like to remind all the participants to protect themselves and read our 
 
 **[SUPPORT THE DEVELOPMENT](https://github.com/lunardao/dao/blob/master/SUPPORT.md) OF LUNARDAO ARCHITECTURE!**
 
-![](https://github.com/lunardao/dao/blob/master/landscape02.jpg)
+![](https://github.com/lunardao/dao/blob/master/pic/landscape02.jpg)
 
 ## Resources & References
 
 * [LunarDAO web](https://lunardao.net)
 * [LunarDAO wiki & full manifesto](https://wiki.lunardao.net)
 * [LunarDAO architecture discussion](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45)  
+* [LunarDAO: Investment portal](https://github.com/lunardao/research/tree/master/investment_portal)
 * [DAOhaus Moloch 3 infrastructure](https://daohaus.club/moloch)
 * [DaoHaus Baal Github - Moloch V3](https://github.com/HausDAO/Baal/tree/feat/baalZodiac/contracts)  
 * [Baal docs - Moloch V3](https://moloch.daohaus.fun/)
