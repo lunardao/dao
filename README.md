@@ -231,25 +231,25 @@ Based on the discussions with the allies & the community, the most feasible way 
 
 - LunarDAO launch is permissionless in the sense that anyone can join/invest.
 - Members can only join during period of the fundraising events.
-- A minimum tribute to join is 0.1 ETH (10 shares).\*
+- A minimum tribute to join is 0.1 ETH.\*
 - The initial fundraising event is the launch of LunarDAO and will be opened for a period of two weeks. 
 
 **Governance Token**
  
-In LunarDAO Shares are represented by the symbol $VOX. 
+LunarDAO Shares are represented by the symbol $VOX. 
 
 - 1 $VOX is an equivalent to 1 share.
 - $VOX is LunarDAO governance token
 - Minimum of 1 $VOX grants squad membership and voting power.
 - $VOX is an account bound, non-transferable token. 
-- Every 0.1 ETH of tribute to treasury mints 10 $VOX to the member (at launch, future entry price may differ based on the previous investments made).
-- When a member ragequits the $VOX is burned.
+- Every 0.1 ETH of tribute to the treasury mints 10 $VOX (-0.25% admin/management fee) to the member (at launch, future entry price may differ based on the previous investments made).
+- When a member ragequits their $VOX is burned.
     - $VOX value in the treasury stays the same for remaining members.
-    - RageQuiting member gets 100% of their funds in the form of loot.
+    - RageQuiting member gets 100% of their funds with no extra fee.
     
 **LunarDAO Loot**
 
-Loot represents members' value of shares after RageQuit or GuildKick. 
+Loot represents members' value of shares in a non-voting form. 
 
 - Symbol $VOX-loot represents loot.\*  
 - $VOX-loot does not grant voting power.
@@ -294,10 +294,10 @@ The following table explains these two concepts.
 | Minimum tribute on launch | 0.1 ETH (10 $VOX). Tribute must be a multiplier of 0.1 ETH. | LunarDAO launches as portfolio based fund. |
 | On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. If the maximum raise threshold is met the contract expires, no more tributes can be submitted. | *As Portfolio*                                      |
 | On-boarding contract expiry period (1st one/ any next one): | 2 weeks the first raise/ 1 week any other one. | Launch is portfolio type/ the future ones to be decided. |
-| $VOX (shares) price on launch:                              | 1 ETH ( + management fee 0.25%) = 100 $VOX. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
-| $VOX value calculation:                                     | 1 $VOX = LunarDAO net value / # of $VOX minted | Same formula for each subDAO |
+| $VOX (shares) price on launch:                              | 1 ETH = 100 $VOX - 0.25% admin/management fee. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
+| $VOX value calculation:                                     | 1 $VOX = LunarDAO net value / # of $VOX in existence | Same formula for each subDAO |
 | $VOX (shares) price bonding curve:                          | + 10% each next funding cycle. The squad can evaluate otherwise. | The new members do not have access to the past investments, only the net value of the new treasury. There is no bonding curve. $VOX has the same price like on launch. |
-| $VOX-loot price calculation:                                | Owners loot value = owners $VOX value in the time of RageQuit (GuildKick). Including owners access to the future allocations which are part of the RageQuited treasury. | *As Portfolio* |
+| $VOX-loot price calculation:                                | Owners $VOX-loot value = owners $VOX (shares) value, without voting power (in the time of GuildKick). Including owners access to the future allocations which are part of the RageQuited treasury. | *As Portfolio* |
 | Squad membership:                                           | Everyone owning at least 1 $VOX is a Squad member. Squad members have voting power. | Everyone owning at least 1 $VOX is a Squad member, however members can vote on treasury decisions only in the guilds/ sub-DAOs in which their $VOX (shares) are allocated. |
 | Overall governance changes: | Discussion -> LIP -> vote -> implementation | All the sub-DAOs together and counted as one DAO with vote event. Every 1 $VOX = 1 vote. |
 | Management/admin fee: | Entry: 0.25% from each tribute, 0.5% per each investment execution from the treasury. | Same like portfolio, but per each subDAO separately as raising events and investment executions happen in different times and sizes. |
@@ -313,12 +313,13 @@ By default all the assets are pooled in the DAO main treasury. The new members j
 
 * Price: 100 $VOX (shares) = 1 ETH
 * Minimum tribute: 0.1 ETH
+* Fee: 0.25% from tribute, 0.5% per executed investment deal
 * Permissionless entry
 * Contract has an upper limit & time expiry, mints shares according to investors' tribute size. The price of everyone's shares is the same.
 
 ***Example***
 
-*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
+*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens. For simplicity, fees are not included in the example calculations.*
 
 In a real life scenario the amount of $VOX (shares) will be arbitrary per each member as the tribute sizes will differ. Some members will likely RageQuit with their funds during the DAOs life cycle. This example is simplified to explain the portfolio logic.
 
