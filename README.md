@@ -146,9 +146,7 @@ An essential part of education, and included in the roadmap, is collecting, rese
 
 ### Sentinels
 
-LunarDAO Sentinels is a committee responsible for executing community decisions in regards to treasury (multi-sig) and consists of eight members in total. Sentinels can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
-
-The suggested time frame to be a multi-sig participant is two years. The transfer will happen when there is someone who can take over when the time is due and is not a rigid measurement. To rotate responsibilities to new Sentinels supports a level of diversity of thought in this important governance responsibility. 
+LunarDAO Sentinels is a committee with a role of a treasury veto agent. It is a multi-sig Gnosis Safe which of eight members in total. The DAO flow of proposal, vote, execution is done fully on-chain and without any interaction or approval needed by Sentinels. However, the Sentinels are the last fall back solution as they can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
 
 *A malicious proposal can include:*
 
@@ -160,7 +158,9 @@ The suggested time frame to be a multi-sig participant is two years. The transfe
 
 If Sentinels reject a proposal, they are expected to share a report which include the motivation for this decision before the next community meeting after the event. The decision and content of the mentioned report will be included, discussed and evaluated in this meeting.
 
-As a part of the [roadmap](https://lunardao.net/roadmap.html) the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup.
+The suggested time frame to be a multi-sig participant is two years. The transfer will happen when there is someone who can take over when the time is due and is not a rigid measurement. To rotate responsibilities to new Sentinels supports a level of diversity of thought in this important governance responsibility. 
+
+As a part of the [roadmap](https://lunardao.net/roadmap.html) the squad will vote if to continue to have a multi-sig based treasury or move to a complete trustless setup after the DAO launches.
 
 **Sentinel members**
 
