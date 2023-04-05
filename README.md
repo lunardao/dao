@@ -146,7 +146,7 @@ An essential part of education, and included in the roadmap, is collecting, rese
 
 ### Sentinels
 
-LunarDAO Sentinels is a committee with a role of a treasury veto agent. It is a multi-sig Gnosis Safe which of eight members in total. The DAO flow of proposal, vote, execution is done fully on-chain and without any interaction or approval needed by Sentinels. However, the Sentinels are the last fall back solution as they can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
+LunarDAO Sentinels is a committee with a role of a treasury veto agent. It is a multi-sig Gnosis Safe with eight members in total. The DAO flow of proposal, vote, execution is done fully on-chain and without any interaction or approval needed by Sentinels. However, the Sentinels are the last fall back solution as they can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
 
 *A malicious proposal can include:*
 
