@@ -218,6 +218,8 @@ As mentioned in the [governance](https://github.com/lunardao/dao#sentinels) chap
 
 In this setup all the proposals are submitted, voted upon and (after grace period) executed on-chain without any Sentinels interaction. Only in the case of a [malicious proposal](https://github.com/lunardao/dao#sentinels), the Sentinels can step in and reject the proposal. Five Sentinel members must sign a veto in their [safe](https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef) in order to make such execution in the LunarDAO treasury. 
 
+![](https://github.com/lunardao/dao/blob/master/pic/diagram_treasury.png)
+
 ### Moloch v3
 
 Based on the discussions with the allies & the community, the most feasible way for the LunarDAO architecture to meet its aim, was chose [MolochDAO V3](https://github.com/Moloch-Mystics/Baal) primitive, designed by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO governance architecture. The Moloch V3 contracts have much more optionality on both the initial setup and throughout the DAO life time in comparison to Moloch V2. V3 is also easier to set up and launch upon, using existing UI and implement changes on the fly, in a more democratic manner (based on community discussions and squad vote).
@@ -229,7 +231,7 @@ Based on the discussions with the allies & the community, the most feasible way 
 
 ### Terminology
 
-*For full description read Governance above.*
+*For full description read [Governance](https://github.com/lunardao/dao#governance) above.*
 
 * **Community:** Anyone engaging on the forum & chats. To be a member of the community does NOT grant voting/governance power.
 * **Squad:** DAO members holding shares, voting power.
