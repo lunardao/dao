@@ -32,13 +32,13 @@ Read LunarDAO full [manifesto](https://wiki.lunardao.net).
 
 LunarDAO mission is the manifestation of lunarpunk vision which enables the forest to expand. In practice LunarDAO: 
 
-- Invest in privacy and anonymity tech and infrastructure
-- Research and share information on privacy projects
-- Support education initiatives aligning with LunarDAO aims
+- Invest in privacy and anonymity tech and infrastructure.
+- Research and share information on privacy projects.
+- Support education initiatives aligning with LunarDAO aims.
 
 ## Investment Thesis
 
-[LunarDAO](https://lunardao.net/) is an **INVESTMENT FUND INTO PRIVACY PROJECTS & ANONYMITY TOOLING**, a squad wealth based DAO spreading [Lunarpunk narrative, philosophy](https://wiki.lunardao.net/) and building [infrastructure](https://lunardao.net/roadmap.thml). 
+[LunarDAO](https://lunardao.net/) is an **INVESTMENT FUND INTO PRIVACY PROJECTS & ANONYMITY TOOLING**, a squad wealth based DAO spreading [Lunarpunk narrative, philosophy](https://wiki.lunardao.net/) and building [infrastructure](https://lunardao.net/roadmap.html). 
 
 ### Problem
 
@@ -76,7 +76,7 @@ Access to resources is fundamental for everyone. Crypto provides the means for p
 
 ### Community
 
-A Community member is anyone who sees themselves as a part of the DAO mission; participates on the forum, ircd, telegram and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power.
+A Community member is anyone who sees themselves as a part of the DAO mission; participates on the [forum](forum.lunardao.net), [ircd](https://wiki.lunardao.net/ircd.html), [telegram](https://t.me/LunarDAO_Official) and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power.
 
 ### Squad
 
@@ -84,11 +84,19 @@ A LunarDAO Squad member is every community member who owns $VOX (shares). During
 
 ### Voting
 
-LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In LIP-0001 there is a template and further information on the expected content and process. It is preferred that voting is announced a week ahead, though initially decisions will need to be made faster and the time will likely be shortened. Voting is open for 72h. The proposal is approved if 50% + 1 $VOX vote yes, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by the Grace period of 72h, during which squad members can ragequit should they disagree with the result of the voting.
+LIP (LunarDAO Improvement Proposal) is the basis of governance in LunarDAO. Anyone can share and discuss proposals on the [forum](forum.lunardao.net). Only Squad members can submit and vote on proposals. In [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md) there is a template and further information on the expected content and process. 
+
+The sponsorship threshold is a minimum number of $VOX (10 $VOX which equals 0.1 ETH at launch) which is required to submit a proposal. This deposit is returned when the proposal have been accepted or rejected. Anyone else can submit a proposal by acquiring a sponsorship by offering a fee of 0.2 ETH which is non refundable and will be sent to the DAO treasury.
+
+Proposals should be shared a week before the vote. Voting is open for 72h. The proposal is approved if 50% + 1 $VOX of the voting amount vote for, else it is rejected. It can also be rejected if Sentinels deem the proposal to be malicious. Voting is followed by a Grace period of 72h, during which squad members can ragequit should they disagree with the result of the voting.
+
+### Delegation
+
+Delegation is included in Moloch V3. Any Squad member can delegate their voting rights to others, whether they are DAO members or not. By doing this, the member no longer have governance rights, and cannot sponsor proposals. The delegate, if previously not a squad member, will become one and just like before $VOX (shares) will represent a share of the treasury as well as voting power.
 
 ### Minimum retention
 
-To prevent dilution of assets, minimum retention is 33%. That means that if 33% of shares ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with new circumstance.
+To prevent dilution of assets, minimum retention is 33%. That means that if 33% of shares ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with the new circumstance.
 
 ### RageQuit
 
@@ -128,7 +136,7 @@ Stewards have a separated 3/6 multisig for their operation. Fees of 0.25% from t
 
 #### How to become a Steward
 
-To become a Steward any Squad member can make a proposal and contact one of the forum [moderators](https://forum.lunardao.net/t/welcome-to-lunardao/7). The proposal can include interests, experiences as well as expected level of commitment within the DAO. The proposition will be discussed among existing Stewards. They will also take into consideration ideas and suggestions which can support LunarDAO mission as well as initiatives and activity of the member within the community. The Stewards may also make a call out for new Stewards if additional support is needed.
+To become a Steward any member can write an LIP and propose to join. This follows the same governance process as any other LIP, steps are shared in [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md). The proposal can include interests, experiences as well as expected level of commitment within the DAO, ideas and suggestions which can support LunarDAO mission as well as initiatives and activity of the member within the community.
 
 ### Media
 
@@ -142,11 +150,11 @@ The Research committee conveys research about privacy and anonymity projects and
 
 Education is fundamental in the struggle for free life, autonomy, and community. It is vital to train guides by providing knowledge, skills and build confidence. LunarDAO is in a trust based partnership with [Adalan Academy](https://adalanacademy.org) and aim to support their development. The initial focus of this decentralized virtual academy is to offer courses in programming, economics and political philosophy. Some of the outcomes are creation and translation of education material, texts and resources. The long-term objective is being able to educate the new generation of lunarpunks.
 
-An essential part of education, and included in the roadmap, is collecting, researching and sharing tools and resources that are privacy oriented. This includes creating opt out manuals that provide the means to exit surveillance society and develop parallel structures that are decentralized and expands our freedom. 
+An essential part of education, and included in the roadmap, is collecting, researching and sharing tools and resources that are privacy oriented. This includes creating [opt out manuals](https://wiki.lunardao.net/intro.html) that provide the means to exit surveillance society and develop parallel structures that are decentralized and expands our freedom. 
 
 ### Sentinels
 
-LunarDAO Sentinels is a committee with a role of a treasury veto agent. It is a multi-sig Gnosis Safe with eight members in total. The DAO flow of proposal, vote, execution is done fully on-chain and without any interaction or approval needed by Sentinels. However, the Sentinels are the last fall back solution as they can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
+LunarDAO Sentinels is a committee with a role of a treasury veto agent. It is a multi-sig Gnosis Safe with eight members in total. The DAO flow of proposal, vote, and execution is done fully on-chain and without any interaction or approval needed by Sentinels. However, the Sentinels are the last fall back solution as they can reject a malicious proposal even if it has been approved by the community. Five are needed to execute a decision.
 
 *A malicious proposal can include:*
 
@@ -188,9 +196,9 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 
 ### Governance process
 
-- **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://wiki.lunardao.net/lip-0001.html).  
-- **Forum discussions:** A thread is created on the forum, where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
-- **Voting:** it is suggested that announcement happen at least 7 days beforehand, open 72h for voting, 72h Grace period.  
+- **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md).  
+- **Forum discussions:** A thread is created on the [forum](https://forum.lunardao.net/c/proposals), where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
+- **Voting:** Should be announced at least 7 days beforehand, open 72h for voting, 72h Grace period.  
 - **If treasury related** -> multi-sig.  
 - **If treasury unrelated** -> update documents, put in practice.
 
@@ -261,13 +269,13 @@ Based on the discussions with the allies & the community, the most feasible way 
 LunarDAO Shares are represented by the symbol $VOX. 
 
 - 1 $VOX is an equivalent to 1 share.
-- $VOX is LunarDAO governance token
+- $VOX is LunarDAO governance token.
 - Minimum of 1 $VOX grants squad membership and voting power.
 - $VOX is an account bound, non-transferable token. 
 - Every 0.1 ETH of tribute to the treasury mints 10 $VOX (-0.25% admin/management fee) to the member (at launch, future entry price may differ based on the previous investments made).
 - When a member ragequits their $VOX is burned.
     - $VOX value in the treasury stays the same for remaining members.
-    - RageQuiting member gets 100% of their funds with no extra fee.
+    - Ragequitting member gets 100% of their funds with no extra fee.
     
 **LunarDAO Loot**
 
@@ -492,8 +500,8 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
 * In this example: Each subDAO2 member has 2x voting power per $VOX than sub-DAO1 member, as they have 2x bigger ETH weight and 2x bigger ETH exposure to than the sub-DAO1 members.
 * The proposal in it's entirety either passes or not. 
 * If the vote passes: 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
-    * 10 ETH is sent from SubDAO 1 members in total
-    * 20 ETH is sent from SubDAO 2 members in total
+    * 10 ETH is sent from SubDAO 1 members in total.
+    * 20 ETH is sent from SubDAO 2 members in total.
 
 **Summary**
 
@@ -512,9 +520,9 @@ To support privacy projects by investing in them is the main purpose of LunarDAO
 
 ### Investment Flow
 
-*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
+*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens.*
 
-Project X is proposed to be financialy supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
+Project X is proposed to be financially supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
 
 ```yaml
 1. Name of the project
@@ -558,3 +566,4 @@ We would like to remind all the participants to protect themselves and read our 
 * [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html)
 * [LunarDAO: Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
 * [LunarDAO: Roadmap](https://lunardao.net/roadmap.html)
+
