@@ -197,14 +197,16 @@ These are guidelines to support Sentinels in their responsibility. It is the res
 ### Governance process
 
 - **LIP (LunarDAO Improvement Proposal):** A proposal is created using the template in [LIP-0001](https://github.com/lunardao/lip/blob/main/lip-0001.md).  
-- **Forum discussions:** A thread is created on the [forum](https://forum.lunardao.net/c/proposals), where the LIP can be discussed. The time frame for the community to give input shall be at least one week.  
-- **Voting:** Should be announced at least 7 days beforehand, open 72h for voting, 72h Grace period.  
-- **If treasury related** -> multi-sig.  
-- **If treasury unrelated** -> update documents, put in practice.
+- **Forum discussions:** A thread is created on the [forum](https://forum.lunardao.net/c/proposals), where the LIP can be discussed. The proposal should be announced at least 7 days before voting.
+- **Voting:** A proposal is submitted on-chain and the voting is opened for 72h.  
+- **Grace Period:** Follows voting for another 72h. Members can exit the DAO with their funds if they don't want to be affected by the decision.
+- **Execution:** Proposals are submitted on chain, hence the changes will apply automatically with pushing the execution button. - If unrelated to treasury: Stewards update the documents.
 
 The LunarDAO governance is not limited to LIPs or voting, decisions are also made in the community or committee meetings. Voting in LunarDAO is the practical implementation of the willpower of the community. The decision making process is not something technical and cannot be separated from our communication/interaction on the forum and on ircd. It is important to always seek discussion and encourage diversity in opinions within the community. This will aid our development in building a truly decentralized, anonymous and antifragile organization.
 
 ## LunarDAO Architecture
+
+**LunarDAO architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) and customized to fit LunarDAO governance.**
 
 The design puts an emphasis on anonymity combined with permissionless entry for the initial Squad formation. Both are essential for a privacy oriented investment fund which aims to develop infrastructure for parallel economy.
 
@@ -520,9 +522,10 @@ To support privacy projects by investing in them is the main purpose of LunarDAO
 
 ### Investment Flow
 
-*In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens.*
+*Note: We use place holders X for the supported project and Tx for their token.*
 
 Project X is proposed to be financially supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
+
 
 ```yaml
 1. Name of the project
@@ -535,7 +538,8 @@ Project X is proposed to be financially supported by LunarDAO in exhcange for # 
 8. If yes: In which size and what is the price of token Tx to other supporting subjects?
 9. If project X is token based: Tx tokenomics/release schedule
 10. Project X's wallet address to recieve the support
-11. LunarDAO treasury wallet address to recieve token Tx in agreed time, amount and price: lunarpunksquad.eth
+11. LunarDAO treasury address to recieve token Tx in agreed time, amount and price: 0x59f77dc848c2e45b5954975ee1969e7a22fa25f6
+
 ```
 LunarDAO Squad votes on the proposal of investment (see [Governance](https://github.com/lunardao/dao#voting) for more details). Project X escrows the promised tokens to LunarDAO treasury as a part of the on-chain proposal, or in case of an illiquid (yet) token Tx, a SAFT NFT (under construction) will be minted by Project X for LunarDAO in exchange for the support sent to the project X's wallet address.
 
@@ -566,4 +570,3 @@ We would like to remind all the participants to protect themselves and read our 
 * [LunarDAO: Why are we anonymous](https://lunardao.net/why-anon.html)
 * [LunarDAO: Multi-sig Anouncement](https://lunardao.net/sentinel-committee-announcement.html)
 * [LunarDAO: Roadmap](https://lunardao.net/roadmap.html)
-
