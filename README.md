@@ -96,7 +96,7 @@ Delegation is included in Moloch V3. Any Squad member can delegate their voting 
 
 ### Minimum retention
 
-To prevent dilution of assets, minimum retention is 33%. That means that if 33% of shares ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with the new circumstance.
+To prevent dilution of assets, minimum retention is 67%. That means that if 33% of shares ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with the new circumstance.
 
 ### RageQuit
 
