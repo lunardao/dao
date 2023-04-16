@@ -186,7 +186,7 @@ To build trust, and decentralize, the DAO is collborating with six Sentinels who
 
 5. [bZ](https://twitter.com/bZ404); [AssangeDAO](https://twitter.com/AssangeDAO).
 
-6. [Dr Paul Dylan-Ennis](https://twitter.com/polarpunklabs); [Academic & writer](https://scholar.google.com/citations?user=rbkT1JgAAAAJ&hl=en)
+6. [Yves Edwards](https://twitter.com/yvesedwards); [FIAT LUX podcast](https://linktr.ee/yvesedwards) host.
 
 7. [Steward Anon 1](https://twitter.com/lunarpunksquad); [LunarDAO](https://lunardao.net/)
 
