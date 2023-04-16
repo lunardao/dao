@@ -217,7 +217,8 @@ Moloch V3 DAO (LunarDAO Governance): [0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1
 Sentinels' Safe (5/8 multi-sig): [0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef](https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef) \
 LunarDAO Stewards' Safe (core-team, founders): [0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) \
 $VOX (voting token/treasury shares): [0x33e6ded5073f512475e17b5f19dda90d9a782478](https://etherscan.io/address/0x33e6ded5073f512475e17b5f19dda90d9a782478) \
-$VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)
+$VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)\
+Genesis Event Onboarder Shaman: [0xFd7f0D849c1820F066aD1DEa8c8B90A59cA51Ef0](https://etherscan.io/address/0xfd7f0d849c1820f066ad1dea8c8b90a59ca51ef0#readContract)
 
 ### On-chain vs Multi-sig
 
@@ -318,13 +319,13 @@ The following table explains these two concepts.
 |:---|:---|:---|
 | Description: | All the assets in the treasury are pooled together as a common portfolio. Each $VOX despite the time of purchase represents the same value (1 $VOX = treasury asset net value / # $VOX ). The Squad members can start different sub-DAOs or specific guilds just like in the “Syndicate” option. | Each fundraising cycle (or even each individual deal) is a separated entity in a separated subDAO. The investments or raising cycles can be separated into sub-DAOs or guilds or alternatively tokens representing the past investments are minted based on on-chain snapshot taken at the time of the investment. |
 | Exposure to the past investments:                           | Yes. New members are exposed to the old investments. | No, new members aren’t part of the portfolio of the past, only to the future investments. |
-| Aim of LunarDAO launch raise size (minimum, aim, maximum):  | 700 ETH, 7000 ETH, 15000 ETH (if hit, the smart contract expires). | *As Portfolio* |
+| Aim of LunarDAO launch raise size (minimum, aim):  | 700 ETH, 7000 ETH | *As Portfolio* |
 | How often LunarDAO runs a raise event:                      | Default: 4x the first year. An investment deal is expected to happen before any next raise. After the initial one, the formed Squad can propose to cap (# ETH) for the next raise or make a sub-DAO and switch into the *syndicate* option. Every sub-DAO makes autonomus decisions on this question. | This case happens if the Squad decides to separate to subDAOs. 4x the first year. Before any next raising event a new separated sub-DAO is opened for the new members who will manage funds separately from the other subDAOs. Every sub-DAO makes autonomus decisions and can futher continue as *portfolio* style managed DAO. |
 | How often the LunarDAO opens for new Squad members:         | Every raising event. If the Squad votes against new fundraising events while there is a strong community wish to join the DAO, a new subDAO fundraising can be opened -> switch to *syndicate* option. | *As Portfolio* |
 | Condition to join LunarDAO Squad at launch:                 | Permissionless with a minimum tribute. | LunarDAO launches as *Portfolio* fund. Conditions to join future subDAOs will be discussed with the community. |
 | Condition to join LunarDAO Squad in the future:             | Default stays the same (except $VOX price - read below). The initial Squad will has a right to decide whether to keep the permissionless setup, introduce invites, raise the minimum tribute bar, limit the max Squad members or max ETH size etc. | New *syndicate* sub-DAOs are permissionless. |
 | Minimum tribute on launch | 0.1 ETH (10 $VOX). Tribute must be a multiplier of 0.1 ETH. | LunarDAO launches as portfolio based fund. |
-| On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. If the maximum raise threshold is met the contract expires, no more tributes can be submitted. | *As Portfolio*                                      |
+| On-boarding contract design:                                | Contract is opened for a limited period. $VOX (shares) are minted based on members' tribute. Genesis Event [contract](https://etherscan.io/address/0xFd7f0D849c1820F066aD1DEa8c8B90A59cA51Ef0). | *As Portfolio*                                      |
 | On-boarding contract expiry period (1st one/ any next one): | 2 weeks the first raise/ 1 week any other one. | Launch is portfolio type/ the future ones to be decided. |
 | $VOX (shares) price on launch:                              | 1 ETH = 100 $VOX - 0.25% admin/management fee. Each $VOX in the given fundraising period has the same price (every Squad member has an equal entry price). | *As Portfolio* |
 | $VOX value calculation:                                     | 1 $VOX = LunarDAO net value / # of $VOX in existence | Same formula for each subDAO |
