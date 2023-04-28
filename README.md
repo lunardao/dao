@@ -284,10 +284,19 @@ LunarDAO Shares are represented by the symbol $VOX.
 
 Loot represents members' value of shares in a non-voting form. 
 
+- 1 $VOX-loot monetary value = 1 $VOX (as both are shares of the DAO treasury)
 - Symbol $VOX-loot represents loot.\*  
 - $VOX-loot does not grant voting power.
 - $LUNAR (community) token is not introduced at launch. It will be designed and introduced as part of the roadmap.\*  
 
+**Token Value**
+
+* $VOX and $VOX-loot monetary value is equal. They both represent 1 share of the DAO treasury.
+* **1 $VOX (or $VOX-loot) = NET TREASURY VALUE / TOTAL AMOUNT OF $VOX (or $VOX-loot)**
+* The assets in treasury or existing amount of shares changes according to:
+    - Investment proposals voted upon by LunarDAO [Squad](https://github.com/lunardao/dao#squad) (the DAO members)
+    - Future fundraising events (The initial entry price is 1 ETH = 100 $VOX (shares), the future ones will be decided by LunarDAO [Squad](https://github.com/lunardao/dao#squad))
+    
 **Fundraising Events**
 
 - A fundraising event is proposed to take place 4x in the first year. (every third month).\*
