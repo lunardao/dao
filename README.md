@@ -314,6 +314,62 @@ Loot represents members' value of shares in a non-voting form.
     b) Investment: 0.5% of every investment execution (after vote + grace period).
 - To fund further expences and costs an LIP is submitted and voted upon.
 
+### Token Value Calculation
+
+LunarDAO Squad (the DAO membership) is defined by holding the governance token $VOX. $VOX represents voting shares and $VOX-LOOT non-voting shares (Loots) of LunarDAO treasury. In other words the value of $VOX and $VOX-LOOT is the same, but only $VOX can be used for voting. In the following definition and calculation we only use the term *Shares* - in this case shares refers to both $VOX and $VOX-LOOT. The combined value of $VOX and $VOX-LOOT is derived from the net treasury value divided by a total sum of $VOX and $VOX-LOOT.
+
+### Terminology & Formulas
+
+**TOTAL SHARES:** Amount of shares in the treasury.
+
+**TOTAL TREASURY:** The net asset value in the treasury (in our example ETH).
+
+**SHARES PRICE:** Amount of shares per ETH or amount of USD per share.  
+	
+1. If the treasury is ETH only; Price in shares per ETH.
+```
+= TOTAL SHARES / TOTAL TREASURY
+```
+2. If multiple assets in teasury; Price in USD per share.
+```
+= TOTAL TREASURY USD NET ASSET VALUE / TOTAL SHARES
+```
+**ALLOCATED ASSET:** # ETH (or any asset) to be allocated to a recipient through minting new shares.
+
+**NEW TOTAL SHARES:** Amount of shares after minting new ones. 
+	
+	= TOTAL SHARES / 1 - (ALLOCATED ASSET / TOTAL TREASURY)
+
+**MINTED SHARES:** Amount of shares to be minted to represent the value of ALLOCATED ASSET. 
+
+	= NEW TOTAL SHARES - TOTAL SHARES
+	= TOTAL SHARES / 1 - (ALLOCATED ASSET / TOTAL TREASURY) - TOTAL SHARES
+
+**EQUITY DILUTION %:** Decrease in existing shareholders' ownership percentage of the treasury as a result of minting new shares.
+	
+	= ALLOCATED ASSET / TOTAL TREASURY * 100
+
+### Example
+
+- Allocated asset = 5 ETH
+- Total Treasury = 100 ETH
+- Total shares = 10 000 $VOX
+- Minted shares = 10 000 / 1 - ( 5 / 100 ) - 10 000 = 526.32
+- New price (shares per ETH)  =   
+  = NEW TOTAL SHARES / TOTAL TREASURY   
+  = 10 526.32/100 = 105.2632
+- Equity dilution % = 5 / 100 * 100 = 5%
+  
+**Example Conclusion**
+
+- **Total allocated ETH:** 5 ETH
+- **Total treasury:** 100 ETH  
+- **New total shares:** 10526.32 (previously 10 000)  
+- **New shares:** 526.32  
+- **New price:** 105.2632 (# of shares per ETH. Previous price was 100)   
+- **Equity dilution:** 5%
+
+
 ## Fund Management
 
 LunarDAO makes investments in privacy projects through the governance process, which includes research, discussion, proposals and voting. The Squad allocates funds to selected teams while building a treasury of its investments. There are several ways how to approach treasury management and govern the funds. For easier understanding we summarized them under two main types: ***Portfolio*** (or Investment club) and ***Syndicate***. These two approaches are explained with examples below. 
