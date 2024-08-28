@@ -80,7 +80,7 @@ Access to resources is fundamental for everyone. Crypto provides the means for p
 
 ### Community
 
-A Community member is anyone who sees themselves as a part of the DAO mission; participates on the [forum](forum.lunardao.net), [darkirc](https://wiki.lunardao.net/darkirc.htmll), [telegram](https://t.me/LunarDAO_Official) and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power but can share there opinions in the community channels and meetings. 
+A Community member is anyone who sees themselves as a part of the DAO mission; participates on the [forum](forum.lunardao.net), [darkirc](https://wiki.lunardao.net/darkirc.html), [telegram](https://t.me/LunarDAO_Official) and contributes to the development of the DAO through work or by sharing experiences, resources and proposals. No token is required to be a part of the community. Community members have no voting power but can share there opinions in the community channels and meetings. 
 
 ### Squad
 
@@ -100,7 +100,7 @@ Delegation is included in Moloch V3. Any Squad member can delegate their voting 
 
 ### Minimum retention
 
-To prevent dilution of assets, minimum retention is in place. That means that if X% of shares isragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with the new circumstance. Minimum retention size is a subject to governance
+To prevent dilution of assets, minimum retention is in place. That means that if X% of shares is ragequitted a proposal during the grace period, the proposal will fail automatically as the original circumstances when the proposal was submitted, including access to funds, has changed dramatically. The squad can re-submit the proposal if they want to vote on it with the new circumstance. Minimum retention size is a subject to governance
 
 ### RageQuit
 
@@ -183,7 +183,7 @@ The LunarDAO governance is not limited to LIPs or voting, decisions are also mad
 
 ## LunarDAOII Architecture
 
-**This entire chapter is focused on the current DAO - LUNARDAOII. LunarDAOII architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) joinly with [Firn Protocol team](https://firn.io) and customized to fit LunarDAO governance.**
+**This entire chapter is focused on the current DAO - LUNARDAOII. LunarDAOII architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) jointly with [Firn Protocol team](https://firn.io) and customized to fit LunarDAO governance.**
 
 The design puts an emphasis on anonymity combined with permissionless entry for an antifragile Squad formation. Both are essential for a privacy oriented investment fund which aims to develop infrastructure for anti-surveilance technology and parallel economy.
 
@@ -243,8 +243,8 @@ Shares are not transferable until escrow is executed!
 **Joining the DAO** 
 
 - LunarDAO launch is permissionless in the sense that anyone can join/invest.
-- Squad is formed during period of the fundraising events
-- People can join later by submitting a proposal
+- Squad is formed during period of the fundraising events.
+- People can join later by submitting a proposal.
 
 **Shares - Governance Token**
 
@@ -253,10 +253,10 @@ Shares are not transferable until escrow is executed!
 - VOX2 is LunarDAOII governance token.
 - Minimum of 1 VOX grants squad membership and voting power.
 - VOX2 is not transferable until escrow is executed! 
-- Every 0.1 ETH of tribute to the treasury mints 10 VOX2 to the member
-- When a member ragequits their VOX2 is burned
-    - VOX2 value in the treasury stays the same for remaining members
-    - Ragequitting member gets 100% of their funds with no extra fee
+- Every 0.1 ETH of tribute to the treasury mints 10 VOX2 to the member.
+- When a member ragequits their VOX2 is burned.
+    - VOX2 value in the treasury stays the same for remaining members.
+    - Ragequitting member gets 100% of their funds with no extra fee.
     
 **Loot**
 
@@ -271,8 +271,8 @@ Loot represents members' value of shares in a non-voting form.
 * **1 VOX2 (or VOX2-loot) = NET TREASURY VALUE / TOTAL AMOUNT OF VOX (or VOX-loot)**
 * VOX2 and VOX2-loot monetary value is equal. They both represent 1 share of the DAO treasury.
 * The assets in treasury or existing amount of shares changes according to:
-    - Investment proposals voted upon by LunarDAO [Squad](https://github.com/lunardao/dao#squad) (the DAO members)
-    - Future fundraising events
+    - Investment proposals voted upon by LunarDAO [Squad](https://github.com/lunardao/dao#squad) (the DAO members).
+    - Future fundraising events.
     
 **Fundraising Events**
 
