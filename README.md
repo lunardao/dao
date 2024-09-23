@@ -2,7 +2,7 @@
 
 # LUNARDAO WHITEPAPER
 
-**THIS DOCUMENT IS OF A DYNAMIC NATURE, IT CHANGES ACCORDING TO THE LUNARDAO DEVELOPMENT. FOLLOW THE [COMMUNITY CHANNELS](https://lunardao.net/community.html) AND THE ARCHITECTURE [DISCUSSION](https://forum.lunardao.net/t/tokenomics-lunar-vox/89/45) TO SHARE YOUR FEEDBACK AND PROPOSALS FOR IMPROVEMENT!**
+**THIS DOCUMENT IS OF A DYNAMIC NATURE, IT CHANGES ACCORDING TO THE LUNARDAO DEVELOPMENT. FOLLOW THE [COMMUNITY CHANNELS](https://lunardao.net/community.html) TO SHARE YOUR FEEDBACK AND PROPOSALS FOR IMPROVEMENT!**
 
 ## Disclaimer
 
@@ -183,7 +183,9 @@ The LunarDAO governance is not limited to LIPs or voting, decisions are also mad
 
 ## LunarDAOII Architecture
 
-**This entire chapter is focused on the current DAO - LUNARDAOII. LunarDAOII architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) jointly with [Firn Protocol team](https://firn.io) and customized to fit LunarDAO governance.**
+**This entire chapter is focused on the current DAO - LUNARDAOII. LunarDAOII architecture is based on [Moloch V3](https://github.com/Moloch-Mystics/Baal) design, deployed by [DAOhaus](https://daohaus.club/moloch) jointly with sunsetting [Firn Protocol team](https://donate.firn.io) and customized to fit LunarDAO governance.**
+
+> Note: Firn Protocol is discontinuing the frontend development and deposits are closed down, the team is committed to allow LunarDAOII participants to use Firn if they wish so for the raise. Withdrawals are open for everyone. 
 
 The design puts an emphasis on anonymity combined with permissionless entry for an antifragile Squad formation. Both are essential for a privacy oriented investment fund which aims to develop infrastructure for anti-surveilance technology and parallel economy.
 
@@ -216,13 +218,14 @@ Based on the discussions with the allies & the community, the most feasible way 
 
 > ***Every point marked with \* symbol is to be further evaluated and decided upon by the Squad formed by all participants of the raise launch.***
 
-LunarDAOII is on Arbitrum, you can join anonymously using [Firn Protocol](https://lunardao.net/darkfi_raise_guide.html).
+LunarDAOII is on Arbitrum, you can join anonymously using [Firn Protocol](https://lunardao.net/darkfi_raise_guide.html) or directly connecting your wallet.
 
 The inital LunarDAOII governance will have these parameters, with all of them being further open to governance.
 
 | **PARAMETER** | **VALUE** |
 |:--- | :--- |
-| Minimum tribute | |
+| Minimum tribute | 0.01 ETH |
+| Shares price | 0.1 ETH donated mints 10 shares |
 | Voting period | 3 days |
 | Grace period (lockup/ragequit) | 3 days |
 | Offering (new proposal for non members) | 0.1 ETH |
@@ -231,18 +234,18 @@ The inital LunarDAOII governance will have these parameters, with all of them be
 | Min retention | 66% |
 | Fees | None |
 | Max cap | 500k (in Arb ETH) |
-| Raise length | 2 weeks or cap |
+| Raise length | 2 weeks or max cap |
 
 Shares are not transferable until escrow is executed!
 
 **Setup**
 
-- LunarDAO is launched on existing [contracts](https://github.com/Moloch-Mystics/Baal) and customized version of the [UI by DAOhaus](https://summon.daohaus.fun/).  
+- LunarDAOII is launched on existing [contracts](https://github.com/Moloch-Mystics/Baal) and customized version of the [UI by DAOhaus](https://summon.daohaus.fun/).  
 - Further upgrades and customization will be discussed in the community and voted upon by the Squad.\*
 
 **Joining the DAO** 
 
-- LunarDAO launch is permissionless in the sense that anyone can join/invest.
+- LunarDAOII launch is permissionless in the sense that anyone can join/invest.
 - Squad is formed during period of the fundraising events.
 - People can join later by submitting a proposal.
 
@@ -282,13 +285,13 @@ Loot represents members' value of shares in a non-voting form.
 
 **Fees and Operation Costs**
 
-- LunarDAO has 4 [Stewards](https://wiki.lunardao.net/governance.html#stewards) (core-team members, founders) at the time of launch.
+- LunarDAOII has 4 [Stewards](https://wiki.lunardao.net/governance.html#stewards) (core-team members, founders) at the time of launch.
 - Several externals are supporting with design, administration, legal questions, software development and translations.
 - To fund operation and development an LIP is submitted and voted upon.
 
 ### Token Value Calculation
 
-LunarDAO Squad (the DAO membership) is defined by holding the governance token VOX2. VOX2 represents voting shares and VOX2-LOOT non-voting shares (Loots) of LunarDAO treasury. In other words the value of VOX2 and VOX2-LOOT is the same, but only VOX2 can be used for voting. In the following definition and calculation we only use the term *Shares* - in this case shares refers to both VOX2 and VOX2-LOOT. The combined value of VOX2 and VOX2-LOOT is derived from the net treasury value divided by a total sum of VOX2 and $VOX2-LOOT.
+LunarDAO Squad (the DAO membership) is defined by holding the governance token VOX2. VOX2 represents voting shares and VOX2-LOOT non-voting shares (Loots) of LunarDAO treasury. In other words the value of VOX2 and VOX2-LOOT is the same, but only VOX2 can be used for voting. In the following definition and calculation we only use the term *Shares* - in this case shares refers to both VOX2 and VOX2-LOOT. The combined value of VOX2 and VOX2-LOOT is derived from the net treasury value divided by a total sum of VOX2 and VOX2-LOOT.
 
 ### Terminology & Formulas
 
@@ -368,15 +371,14 @@ The following table explains these two concepts.
 
 ### Portfolio/ Investment Club
 
-By default all the assets are pooled in the DAO main treasury. The new members joining are part of the same portfolio and exposed to the past investments. The Squad members can decide to set up any further guilds or sub-DAOs (just like in the syndicate design). Every Squad member can RageQuit at any time and transfer their $VOX (shares) value to $VOX-loot. RageQuited members can re-join during the next raising event.
+By default all the assets are pooled in the DAO main treasury. The new members joining are part of the same portfolio and exposed to the past investments. The Squad members can decide to set up any further guilds or sub-DAOs (just like in the syndicate design). Every Squad member can RageQuit at any time and transfer their VOX (shares) value to VOX-loot. RageQuited members can re-join during the next raising event.
 
 **Summary**
 
-* Portfolio was the the initial fund management setup.
 * Permissionless but time & max cap limited entry. 
 * At any point members can exit with their funds partly or fully.
 * The Squad can decide if, how and when to do next rasing events.
-* A bonding curve to the price of $VOX (shares) for every next raising event to balance investment dilution must be considered.
+* A bonding curve to the price of VOX (shares) for every next raising event to balance investment dilution must be considered.
 * Every member can add more funds during the next fundraising event.
 * All Squad members share a RageQuitable portfolio together, equal to the size of their tribute.
 * The Squad can decide to open separated guilds.
@@ -385,7 +387,7 @@ By default all the assets are pooled in the DAO main treasury. The new members j
 
 **Genesis Event: DAO launch & the initial raise**
 
-* Price: 100 $VOX (shares) = 1 ETH
+* Price: 100 VOX (shares) = 1 ETH
 * Minimum tribute: 0.1 ETH
 * Fee: 0.25% from tribute, 0.5% per executed investment deal
 * Permissionless entry
@@ -395,14 +397,14 @@ By default all the assets are pooled in the DAO main treasury. The new members j
 
 *In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens. For simplicity, fees are not included in the example calculations.*
 
-In a real life scenario the amount of $VOX (shares) will be arbitrary per each member as the tribute sizes will differ. Some members will likely RageQuit with their funds during the DAOs life cycle. This example is simplified to explain the portfolio logic.
+In a real life scenario the amount of VOX (shares) will be arbitrary per each member as the tribute sizes will differ. Some members will likely RageQuit with their funds during the DAOs life cycle. This example is simplified to explain the portfolio logic.
 
-* 100 people join the Squad for 10 ETH each -> 1000 $VOX (shares) each.
-* Treasury net = 1000 ETH; 100 000 $VOX (shares) was minted.
+* 100 people join the Squad for 10 ETH each -> 1000 VOX (shares) each.
+* Treasury net = 1000 ETH; 100 000 VOX (shares) was minted.
 * The Squad invests 500 ETH to X in exchange for their token Tx. Deal is 1 ETH = 1000 Tx.
 * No-one RageQuits.
-* Treasury net = 500 ETH + 500 000 Tx, represented by 100 000 $VOX (shares).
-* Each member owns 1000 $VOX (shares) representing 5 ETH + 5000 Tx.
+* Treasury net = 500 ETH + 500 000 Tx, represented by 100 000 VOX (shares).
+* Each member owns 1000 VOX (shares) representing 5 ETH + 5000 Tx.
 
 **Second LunarDAO raising event**
 
@@ -413,20 +415,20 @@ Because the new members have access to the deals of the past, the entry price is
 
 ***Example***
 
-* 100 new people join the existing Squad -> Each of the new member paid 11 ETH -> 1000 $VOX (shares) -> 100 000 new $VOX were minted.
-* Treasury has 200 000 $VOX total.
+* 100 new people join the existing Squad -> Each of the new member paid 11 ETH -> 1000 VOX (shares) -> 100 000 new VOX were minted.
+* Treasury has 200 000 VOX total.
 * Squad = 200 members
 * Treasury net = 500 + 1100 ETH + 500 000 Tx
-* Each $VOX (share) represents:
+* Each VOX (share) represents:
     - 0.008 ETH
     - 2.5 Tx
-* Every Squad member has the same amount of shares: 1000 $VOX.  Their shares representing:
+* Every Squad member has the same amount of shares: 1000 VOX.  Their shares representing:
     - 8 ETH (1600/ 200)
     - 25 000 Tx (500 000 / 200)
 * The first 100 members paid 10 ETH each, the new members paid 11 ETH each.
 * The Squad invests 800 ETH to Y in exhange for their token Ty. Deal is 1 ETH = 10 000 Ty.
 * Treasury net = 800 ETH + 500 000 TX + 8 000 000 Ty
-* Each member holding 1000 $VOX (shares) is an owner of:
+* Each member holding 1000 VOX (shares) is an owner of:
     - 4 ETH
     - 2500 Tx
     - 40 000 Ty  
@@ -436,7 +438,7 @@ Because the new members have access to the deals of the past, the entry price is
 
 Each fundraising cycle (possibly each investment) is treated as a separated entity, unique sub-DAO/guild. Members joining in future fundraising events share a new treasury (sub-DAO or a guild) without an access to the investments from the past. All treasury related proposals have impact only on the separated guild/sub-DAO in which the proposing Squad member is at.
 
-There are cases in which all the votes across the subDAOs are seen as one DAO and vote on a decision together. In such cases the votes are counted and evaluated like if all the subDAOs were one DAO or there are separated LIPs issued to each subDAO. In case of one large vote, ie deciding over a new Steward member, regardless of different investments in the subDAOs, every 1 VOX = 1 vote. In a scenario like a core-team proposal to cover additional costs, is taken proportionally to the token weights of the subDAOs (and their members) and issued separately to each subDAO. If less than 50% + 1 $VOX of total voting weight across the subDAOs is for the proposal, the proposal is rejected.
+There are cases in which all the votes across the subDAOs are seen as one DAO and vote on a decision together. In such cases the votes are counted and evaluated like if all the subDAOs were one DAO or there are separated LIPs issued to each subDAO. In case of one large vote, ie deciding over a new Steward member, regardless of different investments in the subDAOs, every 1 VOX = 1 vote. In a scenario like a core-team proposal to cover additional costs, is taken proportionally to the token weights of the subDAOs (and their members) and issued separately to each subDAO. If less than 50% + 1 VOX of total voting weight across the subDAOs is for the proposal, the proposal is rejected.
 
 **Summary**
 
@@ -451,7 +453,7 @@ There are cases in which all the votes across the subDAOs are seen as one DAO an
 
 **Genesis Event: DAO launch & the initial raise**
 
-* Price: 100 $VOX (shares) = 1 ETH
+* Price: 100 VOX (shares) = 1 ETH
 * Minimum tribute: To be decided as the the DAO launches as portfolio by default.
 * Permissionless entry
 * Contract has upper limit & time expiry. mints shares according to investors' tribute size. The price of everyone's shares is the same.
@@ -462,12 +464,12 @@ There are cases in which all the votes across the subDAOs are seen as one DAO an
 
 In a real life scenario the amount of shares (the tribute) will be arbitrary per each member and some members will likely RageQuit with their funds. This example is simplified to get the understanding of the syndicate logic.
 
-* 100 people join the Squad for 10 ETH each -> 1000 $VOX (shares) each.
-* Treasury net = 1000 ETH; 100 000 $VOX (shares) was minted.
+* 100 people join the Squad for 10 ETH each -> 1000 VOX (shares) each.
+* Treasury net = 1000 ETH; 100 000 VOX (shares) was minted.
 * The Squad invests 500 ETH to X in exchange for their token Tx. Deal is 1 ETH = 1000 Tx.
 * No-one RageQuits.
-* Treasury net = 500 ETH + 500 000 Tx, represented by 100 000 $VOX (shares).
-* Each member owns 1000 $VOX (shares) representing 5 ETH + 5000 Tx.
+* Treasury net = 500 ETH + 500 000 Tx, represented by 100 000 VOX (shares).
+* Each member owns 1000 VOX (shares) representing 5 ETH + 5000 Tx.
 
 **Second LunarDAO raising event**
 
@@ -479,13 +481,13 @@ Decisions regarding to the general governance is voted in all the sub-DAOs toget
 
 ***Example***
 
-* Genesis event -> DAO launch -> 1m $VOX across 100 members
+* Genesis event -> DAO launch -> 1m VOX across 100 members
 * Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
-* New subDAO launches -> 500 000 $VOX across 50 members
-* Proposal to remove multi-sig from the DAO execution -> vote will be in the overall DAO consisting of the sum of all $VOX in all subDAOs.
-* Total $VOX in all subDAOs = 150m. 
+* New subDAO launches -> 500 000 VOX across 50 members
+* Proposal to remove multi-sig from the DAO execution -> vote will be in the overall DAO consisting of the sum of all VOX in all subDAOs.
+* Total VOX in all subDAOs = 150m. 
 * 1/3 of the members vote = 500 000 votes
-    - a) 50% + 1 $VOX are for -> multi-sig gets removed
+    - a) 50% + 1 VOX are for -> multi-sig gets removed
     - b) 50% and less are for -> multisig stays
 
 **LunarDAO operation funding proposal**
@@ -501,10 +503,10 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
 
 ***Example a)***
 
-* Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH).
-* DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx.
+* Genesis event -> DAO launches -> 1m VOX minted between 100 members (10 000 ETH).
+* DAO invests in project X with 5 000 ETH -> Every VOX (shares) represent 50% ETH and 50% token Tx.
 * Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
-* New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
+* New subDAO launches -> 1m VOX minted between 1000 members (10 000 ETH).
 * There are 2 subdDAOs now.
 * The core team submits LIP to get 30 ETH funding for the work done. -> ***the proposal size will be divided between the sub-DAOS and voted upon by each of them separately.***
 * The division formula is:
@@ -514,27 +516,27 @@ A core-team proposal to cover additional costs for the administration, dev, ops,
     - Proposal to sub-DAO2 = total funding proposal ETH \* sub-DAO2 ETH / total ETH = 30 \* 10000 / 15 000 = 20 ETH
 * Core team submits 2 LIPs: 10 ETH to subDAO1 and 20 ETH to sub-DAO2
 * Each of them vote separately according to the governance rules.
-* Each sub-DAO and it's member votes as usual: 1 $VOX = 1 vote, the votes only impact the decision in the given sub-DAO.
+* Each sub-DAO and it's member votes as usual: 1 VOX = 1 vote, the votes only impact the decision in the given sub-DAO.
 * The core team may be supported by all, none or either of the existing sub-DAOs. 
 * New proposals can be submitted per governance guidelines.
 
-**b)** The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs. The vote would have to be based on the proposed asset weight per members' $VOX (shares), ie ETH if proposal is for ETH funding:  
+**b)** The votes are counted and evaluated like if all the subDAOs were one DAO. Regardless of different investments in the subDAOs. The vote would have to be based on the proposed asset weight per members' VOX (shares), ie ETH if proposal is for ETH funding:  
 
-***voting SUM(ETH weight / $VOX \* # $VOX)***
+***voting SUM(ETH weight / VOX \* # VOX)***
 
 ***Example b)***
 
-* Genesis event -> DAO launches -> 1m $VOX minted between 100 members (10 000 ETH).
-* DAO invests in project X with 5 000 ETH -> Every $VOX (shares) represent 50% ETH and 50% token Tx.
+* Genesis event -> DAO launches -> 1m VOX minted between 100 members (10 000 ETH).
+* DAO invests in project X with 5 000 ETH -> Every VOX (shares) represent 50% ETH and 50% token Tx.
 * Squad decided to not allow for future onboarding to the DAO and there is a strong community will to join LunarDAO.
-* New subDAO launches -> 1m $VOX minted between 1000 members (10 000 ETH).
+* New subDAO launches -> 1m VOX minted between 1000 members (10 000 ETH).
 * There are 2 subdDAOs now.
 * The core team submits LIP to get 30 ETH funding for the work done. -> ***The proposal will be submitted and voted upon in the parent DAO consisting of the sum of all ETH in all subDAOs.***
 * As the impact per member is on their ETH, the voting power is ETH weighted 
-* The vote calculation from all voting members: SUM(ETH weight/$VOX \* # $VOX)
-    - sub-DAO1 member with 1000 $VOX (shares) = 0.5 / 1 \* 1000 = 500 votes
-    - sub-DAO2 member with 1000 $VOX (shares) = 1 / 1 \* 1000 = 1000 votes
-* In this example: Each subDAO2 member has 2x voting power per $VOX than sub-DAO1 member, as they have 2x bigger ETH weight and 2x bigger ETH exposure to than the sub-DAO1 members.
+* The vote calculation from all voting members: SUM(ETH weight/VOX \* # VOX)
+    - sub-DAO1 member with 1000 VOX (shares) = 0.5 / 1 \* 1000 = 500 votes
+    - sub-DAO2 member with 1000 VOX (shares) = 1 / 1 \* 1000 = 1000 votes
+* In this example: Each subDAO2 member has 2x voting power per VOX than sub-DAO1 member, as they have 2x bigger ETH weight and 2x bigger ETH exposure to than the sub-DAO1 members.
 * The proposal in it's entirety either passes or not. 
 * If the vote passes: 30 ETH are sent proportionally to the ETH weights per each LunarDAO member.
     * 10 ETH is sent from SubDAO 1 members in total.
@@ -610,6 +612,6 @@ LunarDAO Treasury: [0x59F77dC848C2E45B5954975ee1969e7A22fA25F6](https://app.safe
 Moloch V3 DAO (LunarDAO Governance): [0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1](https://etherscan.io/address/0x747DA68Facd1459E9D9b8f928418DA30769D3Ba1) \
 Sentinels' Safe (5/8 multi-sig): [0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef](https://app.safe.global/home?safe=eth:0x622066aBA170c185c28cED6E7ccd1cB2047ef6ef) \
 LunarDAO Stewards' Safe (core-team, founders): [0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD](https://app.safe.global/home?safe=eth:0xAb501a8Eb58c9780eb04D683feB504fcE391A2DD) \
-$VOX (voting token/treasury shares): [0x33e6ded5073f512475e17b5f19dda90d9a782478](https://etherscan.io/address/0x33e6ded5073f512475e17b5f19dda90d9a782478) \
-$VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)\
+VOX (voting token/treasury shares): [0x33e6ded5073f512475e17b5f19dda90d9a782478](https://etherscan.io/address/0x33e6ded5073f512475e17b5f19dda90d9a782478) \
+VOX-LOOT (non-voting token/shares): [0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7](https://etherscan.io/address/0x94fadf770e44b7bc872fc712e4ba6aaf096fcba7)\
 Genesis Event Onboarder Shaman: [0xFd7f0D849c1820F066aD1DEa8c8B90A59cA51Ef0](https://etherscan.io/address/0xfd7f0d849c1820f066ad1dea8c8b90a59ca51ef0#readContract)
