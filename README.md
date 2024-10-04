@@ -225,7 +225,7 @@ The inital LunarDAOII governance will have these parameters, with all of them be
 | **PARAMETER** | **VALUE** |
 |:--- | :--- |
 | Minimum tribute | 0.01 ETH |
-| Shares price | 0.1 ETH donated mints 10 shares |
+| Shares price | 0.1 ETH donated mints 1000 shares |
 | Voting period | 3 days |
 | Grace period (lockup/ragequit) | 3 days |
 | Offering (new proposal for non members) | 0.1 ETH |
